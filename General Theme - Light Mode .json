@@ -399,7 +399,7 @@
             "$id": "default",
             "position": "aboveValue",
             "fontSize": 14,
-            "fontFamily": "Courier New"
+            "fontFamily": "Tawuniya"
           }
         ],
         "layout": [
@@ -527,7 +527,7 @@
               }
             },
             "text": "Add visual title here",
-            "fontFamily": "Courier New"
+            "fontFamily": "Tawuniya"
           }
         ],
         "value": [
@@ -536,7 +536,7 @@
             "fontSize": 45,
             "horizontalAlignment": "left",
             "bold": true,
-            "fontFamily": "Courier New"
+            "fontFamily": "Tawuniya"
           }
         ]
       }
