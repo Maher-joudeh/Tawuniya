@@ -1,38 +1,14 @@
 ﻿{
   "name": "Sauce Shop",
   "dataColors": [
-    "#ffc600",
-    "#ff7f00",
-    "#4285f4",
-    "#d64990",
-    "#059da4",
-    "#5433eb",
-    "#006f4d",
-    "#d01c27",
-    "#3599B8",
-    "#DFBFBF",
-    "#4AC5BB",
-    "#5F6B6D",
-    "#FB8281",
-    "#F4D25A",
-    "#7F898A",
-    "#A4DDEE",
-    "#FDAB89",
-    "#B687AC",
-    "#28738A",
-    "#A78F8F",
-    "#168980",
-    "#293537",
-    "#BB4A4A",
-    "#B59525",
-    "#475052",
-    "#6A9FB0",
-    "#BD7150",
-    "#7B4F71",
-    "#1B4D5C",
-    "#706060",
-    "#0F5C55",
-    "#1C2325"
+    "#6b47f5",
+    "#ac8cff",
+    "#009dff",
+    "#76caff",
+    "#00b383",
+    "#5ed1b1",
+    "#A3B7F5",
+    "#A89CF8"
   ],
   "visualStyles": {
     "*": {
@@ -40,7 +16,7 @@
         "title": [
           {
             "bold": true,
-            "fontFamily": "Barlow Condensed, Arial",
+            "fontFamily": "Tawuniya",
             "show": true,
             "alignment": "left",
             "background": {
@@ -111,7 +87,7 @@
         ],
         "subTitle": [
           {
-            "fontFamily": "Karla, Arial",
+            "fontFamily": "Tawuniya",
             "show": true,
             "bold": true,
             "fontSize": 10,
@@ -165,7 +141,7 @@
         "columnHeaders": [
           {
             "bold": true,
-            "fontFamily": "Karla, Arial",
+            "fontFamily": "Tawuniya",
             "outline": "None",
             "outlineColor": {
               "solid": {
@@ -243,7 +219,7 @@
                 }
               }
             },
-            "fontFamily": "Karla, Arial"
+            "fontFamily": "Tawuniya"
           }
         ],
         "total": [
@@ -261,7 +237,7 @@
               }
             },
             "outline": "None",
-            "fontFamily": "Karla, Arial",
+            "fontFamily": "Tawuniya",
             "fontColor": {
               "solid": {
                 "color": {
@@ -296,7 +272,7 @@
         "columnHeaders": [
           {
             "bold": true,
-            "fontFamily": "Karla, Arial",
+            "fontFamily": "Tawuniya",
             "backColor": {
               "solid": {
                 "color": {
@@ -377,7 +353,7 @@
                 }
               }
             },
-            "fontFamily": "Karla, Arial"
+            "fontFamily": "Tawuniya"
           }
         ],
         "columnTotal": [
@@ -408,7 +384,7 @@
               }
             },
             "bold": true,
-            "fontFamily": "Karla, Arial"
+            "fontFamily": "Tawuniya"
           }
         ],
         "values": [
@@ -438,13 +414,13 @@
               }
             },
             "bandedRowHeaders": true,
-            "fontFamily": "Karla, Arial",
+            "fontFamily": "Tawuniya",
             "outline": "None"
           }
         ],
         "rowHeaders": [
           {
-            "fontFamily": "Karla, Arial",
+            "fontFamily": "Tawuniya",
             "expandCollapseButtonsColor": {
               "solid": {
                 "color": {
@@ -497,7 +473,7 @@
   },
   "textClasses": {
     "title": {
-      "fontFace": "Karla, Arial"
+      "fontFace": "Tawuniya"
     }
   },
   "good": "#006f4d",
