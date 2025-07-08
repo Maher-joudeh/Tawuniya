@@ -138,7 +138,14 @@
               "show": true,
               "color": {
                 "solid": {
-                  "color": "#33e39d"
+                  "color": {
+                    "expr": {
+                      "ThemeDataColor": {
+                        "ColorId": 2,
+                        "Percent": 0
+                      }
+                    }
+                  }
                 }
               },
               "radius": 5,
@@ -146,7 +153,14 @@
             },
             "fillColor": {
               "solid": {
-                "color": "#33e39d"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             },
             "transparency": 75
@@ -358,7 +372,14 @@
             "position": "Top",
             "color": {
               "solid": {
-                "color": "#33e39d"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             }
           }
@@ -450,7 +471,14 @@
             "backgroundShow": true,
             "backgroundColor": {
               "solid": {
-                "color": "#33e39d"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             },
             "backgroundTransparency": 92.5
@@ -485,7 +513,14 @@
             "show": true,
             "detailBackgroundColor": {
               "solid": {
-                "color": "#33e39d"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             }
           }
@@ -895,7 +930,14 @@
             "rowPadding": 3.5,
             "outlineColor": {
               "solid": {
-                "color": "#33e39d"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             },
             "outlineStyle": 1,
