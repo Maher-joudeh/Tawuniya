@@ -108,7 +108,7 @@
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
-                "color": "#`33e39d`66"
+                "color": "#33e39d66"
               }
             },
             "gridlineStyle": "dotted",
@@ -224,7 +224,7 @@
         ],
         "image": [
           {
-            "$id": "selected",
+            "$id": "selection",
             "position": "Left",
             "imageAreaSize": 30,
             "saturation": 100
@@ -398,12 +398,17 @@
           {
             "$id": "default",
             "position": "aboveValue",
-            "fontSize": 10
+            "fontSize": 14,
+            "fontFamily": "Courier New"
           }
         ],
         "layout": [
           {
-            "calloutSize": 60
+            "calloutSize": 60,
+            "orientation": 2,
+            "style": "Cards",
+            "maxTiles": 3,
+            "cellPadding": 8
           }
         ],
         "outline": [
@@ -521,15 +526,17 @@
                 "color": "#F1F3F6"
               }
             },
-            "text": "Add visual title here"
+            "text": "Add visual title here",
+            "fontFamily": "Courier New"
           }
         ],
         "value": [
           {
             "$id": "default",
-            "fontSize": 13,
+            "fontSize": 45,
             "horizontalAlignment": "left",
-            "bold": true
+            "bold": true,
+            "fontFamily": "Courier New"
           }
         ]
       }
