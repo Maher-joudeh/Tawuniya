@@ -26,3 +26,7 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 ## License
 
 All rights reserved for Tawuniya Insurance.
+
+### Notes
+
+The Default theme can have the base colors as well as the LOB Colors since bi genrates shades of them and that will make it most person versatile
