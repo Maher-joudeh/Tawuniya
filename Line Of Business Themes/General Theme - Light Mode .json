@@ -568,7 +568,7 @@
         "value": [
           {
             "$id": "default",
-            "fontSize": 45,
+            "fontSize": 32,
             "horizontalAlignment": "left",
             "bold": true,
             "fontFamily": "Tawuniya"
