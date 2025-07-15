@@ -351,14 +351,6 @@
           {
             "fontSize": 20
           }
-        ],
-        "padding": [
-          {
-            "bottom": 0,
-            "top": 0,
-            "left": 0,
-            "right": 0
-          }
         ]
       }
     },
@@ -442,7 +434,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 8,
+                      "ColorId": 9,
                       "Percent": 0.6
                     }
                   }
@@ -856,7 +848,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 8,
+                      "ColorId": 9,
                       "Percent": 0
                     }
                   }
