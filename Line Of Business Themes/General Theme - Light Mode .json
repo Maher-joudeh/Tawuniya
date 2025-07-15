@@ -349,7 +349,8 @@
       "*": {
         "labels": [
           {
-            "fontSize": 35
+            "fontSize": 35,
+            "bold": true
           }
         ]
       }
@@ -1022,7 +1023,7 @@
       "fontFace": "Tawuniya"
     }
   },
-  "good": "#5EB364",
+  "good": "#2bbe84",
   "bad": "#FF4136",
   "neutral": "#949599",
   "maximum": "#33e39d",
