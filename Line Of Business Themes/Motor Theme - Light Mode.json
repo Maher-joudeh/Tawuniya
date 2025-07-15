@@ -1,14 +1,14 @@
 {
   "name": "General Theme - Light Mode ",
   "dataColors": [
-    "#ff2e7d",
-    "#e9276d",
-    "#d3215e",
-    "#bd1a4e",
-    "#a8143e",
-    "#920d2e",
-    "#7c071f",
-    "#66000f"
+    "#ff7312",
+    "#ff8530",
+    "#ff974f",
+    "#ffa96d",
+    "#ffbb8c",
+    "#ffcdaa",
+    "#ffdfc9",
+    "#fff1e7"
   ],
   "visualStyles": {
     "*": {
@@ -108,7 +108,7 @@
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
-                "color": "#ff2e7d66"
+                "color": "#ff731266"
               }
             },
             "gridlineStyle": "dotted",
@@ -908,7 +908,7 @@
           {
             "backColor": {
               "solid": {
-                "color": "#ff2e7d1A"
+                "color": "#ff73121A"
               }
             },
             "autoSizeColumnWidth": false,

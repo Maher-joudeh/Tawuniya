@@ -1,14 +1,14 @@
 {
-  "name": "General Theme - Light Mode ",
+  "name": "Health Theme - Light Mode",
   "dataColors": [
-    "#ff7312",
-    "#ff8530",
-    "#ff974f",
-    "#ffa96d",
-    "#ffbb8c",
-    "#ffcdaa",
-    "#ffdfc9",
-    "#fff1e7"
+    "#ff2e7d",
+    "#e9276d",
+    "#d3215e",
+    "#bd1a4e",
+    "#a8143e",
+    "#920d2e",
+    "#7c071f",
+    "#66000f"
   ],
   "visualStyles": {
     "*": {
@@ -108,7 +108,7 @@
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
-                "color": "#ff731266"
+                "color": "#ff2e7d66"
               }
             },
             "gridlineStyle": "dotted",
@@ -138,14 +138,7 @@
               "show": true,
               "color": {
                 "solid": {
-                  "color": {
-                    "expr": {
-                      "ThemeDataColor": {
-                        "ColorId": 2,
-                        "Percent": 0
-                      }
-                    }
-                  }
+                  "color": "#ff2e7d"
                 }
               },
               "radius": 5,
@@ -153,14 +146,7 @@
             },
             "fillColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#ff2e7d"
               }
             },
             "transparency": 75
@@ -238,7 +224,7 @@
         ],
         "image": [
           {
-            "$id": "selection",
+            "$id": "selected",
             "position": "Left",
             "imageAreaSize": 30,
             "saturation": 100
@@ -349,8 +335,15 @@
       "*": {
         "labels": [
           {
-            "fontSize": 35,
-            "bold": true
+            "fontSize": 20
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "top": 0,
+            "left": 0,
+            "right": 0
           }
         ]
       }
@@ -365,14 +358,7 @@
             "position": "Top",
             "color": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#ff2e7d"
               }
             }
           }
@@ -412,17 +398,12 @@
           {
             "$id": "default",
             "position": "aboveValue",
-            "fontSize": 14,
-            "fontFamily": "Tawuniya"
+            "fontSize": 10
           }
         ],
         "layout": [
           {
-            "calloutSize": 60,
-            "orientation": 2,
-            "style": "Cards",
-            "maxTiles": 3,
-            "cellPadding": 8
+            "calloutSize": 60
           }
         ],
         "outline": [
@@ -464,14 +445,7 @@
             "backgroundShow": true,
             "backgroundColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#ff2e7d"
               }
             },
             "backgroundTransparency": 92.5
@@ -506,14 +480,7 @@
             "show": true,
             "detailBackgroundColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#ff2e7d"
               }
             }
           }
@@ -554,17 +521,15 @@
                 "color": "#F1F3F6"
               }
             },
-            "text": "Add visual title here",
-            "fontFamily": "Tawuniya"
+            "text": "Add visual title here"
           }
         ],
         "value": [
           {
             "$id": "default",
-            "fontSize": 32,
+            "fontSize": 13,
             "horizontalAlignment": "left",
-            "bold": true,
-            "fontFamily": "Tawuniya"
+            "bold": true
           }
         ]
       }
@@ -908,7 +873,7 @@
           {
             "backColor": {
               "solid": {
-                "color": "#33e39d1A"
+                "color": "#ff2e7d1A"
               }
             },
             "autoSizeColumnWidth": false,
@@ -923,14 +888,7 @@
             "rowPadding": 3.5,
             "outlineColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#ff2e7d"
               }
             },
             "outlineStyle": 1,
@@ -1023,10 +981,10 @@
       "fontFace": "Tawuniya"
     }
   },
-  "good": "#2bbe84",
+  "good": "#5EB364",
   "bad": "#FF4136",
   "neutral": "#949599",
-  "maximum": "#33e39d",
+  "maximum": "#ff2e7d",
   "minimum": "#FFF1E7",
   "center": "#FF8F41"
 }
