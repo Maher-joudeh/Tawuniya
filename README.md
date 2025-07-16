@@ -18,7 +18,7 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 ### Assets
 
-This folder contains assets developers may need, including dark- and light-mode logos, line-of-business logos, and the official icon for each business line.
+This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line.
 
 ## Usage
 
