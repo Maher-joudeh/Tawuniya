@@ -4,8 +4,8 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 ## Included Themes
 
-- **Tawuniya - Colorful (With Image)**  
-  The primary theme with background image, reflecting the full brand style.
+- **Tawuniya Colorful - Dark Mode**  
+  The primary theme with reflecting our data office colors.
 
 ### Line of Business Themes
 
@@ -13,7 +13,6 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
   Tailored colors and formatting for the General line of business.
 - **Health Theme - Light Mode**  
   Tailored colors and formatting for the Health line of business.
-
 - **Motor Theme - Light Mode**  
   Tailored colors and formatting for the Motor line of business.
 
@@ -26,7 +25,3 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 ## License
 
 All rights reserved for Tawuniya Insurance.
-
-### Notes
-
-The Default theme can have the base colors as well as the LOB Colors since bi genrates shades of them and that will make it most person versatile
