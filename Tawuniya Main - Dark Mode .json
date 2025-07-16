@@ -2,13 +2,13 @@
   "name": "Theme - Dark Mode ",
   "dataColors": [
     "#6b47f5",
-    "#312E52",
     "#8780F2",
     "#9073F2",
     "#A8A9CF",
     "#D6D1ED",
     "#FF7312",
-    "#33E39D"
+    "#33E39D",
+    "#FF2E7D"
   ],
   "visualStyles": {
     "*": {
