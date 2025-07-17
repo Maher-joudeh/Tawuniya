@@ -106,6 +106,7 @@
         ],
         "valueAxis": [
           {
+            "_comment": "This color is to be changed if theme colors are changed ----------------------------------#FF4135-------------------------------",
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
@@ -907,6 +908,7 @@
       "*": {
         "columnHeaders": [
           {
+            "_comment": "This color is to be changed if theme colors are changed ----------------------------------#FF4135-------------------------------",
             "backColor": {
               "solid": {
                 "color": "#33e39d1A"
