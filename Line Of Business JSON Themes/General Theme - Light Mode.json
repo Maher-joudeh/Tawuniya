@@ -280,7 +280,19 @@
           {
             "show": true,
             "fontFamily": "Tawuniya",
-            "fontSize": 12
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
           }
         ]
       }
