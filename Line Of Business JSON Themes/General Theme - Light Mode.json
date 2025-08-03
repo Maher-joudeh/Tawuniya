@@ -222,6 +222,19 @@
         ],
         "border": [
           {
+            "radius": 6,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
             "show": false
           }
         ],
@@ -265,7 +278,9 @@
         ],
         "value": [
           {
-            "show": false
+            "show": true,
+            "fontFamily": "Tawuniya",
+            "fontSize": 12
           }
         ]
       }
