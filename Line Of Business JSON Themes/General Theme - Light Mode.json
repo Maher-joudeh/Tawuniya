@@ -909,7 +909,9 @@
         ],
         "header": [
           {
-            "show": false
+            "show": true,
+            "fontFamily": "Tawuniya",
+            "fontColor": "#22203D"
           }
         ],
         "items": [
