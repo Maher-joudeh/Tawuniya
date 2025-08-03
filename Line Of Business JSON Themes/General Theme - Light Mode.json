@@ -895,7 +895,7 @@
         ]
       }
     },
-    "listSlicer": {
+    "textSlicer": {
       "*": {
         "background": [
           {
