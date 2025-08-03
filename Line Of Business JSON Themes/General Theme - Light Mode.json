@@ -895,33 +895,6 @@
         ]
       }
     },
-    "textSlicer": {
-      "*": {
-        "background": [
-          {
-            "show": false
-          }
-        ],
-        "title": [
-          {
-            "show": true,
-            "bold": true
-          }
-        ],
-        "dropShadow": [
-          {
-            "show": false
-          }
-        ],
-        "header": [
-          {
-            "show": true,
-            "fontFamily": "Tawuniya",
-            "fontColor": "#22203D"
-          }
-        ]
-      }
-    },
     "stackedAreaChart": {
       "*": {
         "legend": [
