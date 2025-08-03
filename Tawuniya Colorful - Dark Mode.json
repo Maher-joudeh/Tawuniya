@@ -896,6 +896,88 @@
         ]
       }
     },
+    "listSlicer": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "header": [
+          {
+            "show": false
+          }
+        ],
+        "items": [
+          {
+            "background": {
+              "solid": {
+                "color": "#F1F3F6"
+              }
+            }
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "top": 0,
+            "left": 0,
+            "right": 0
+          }
+        ],
+        "slider": [
+          {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "handleFillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 9,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "handleBorderColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "show": true
+          }
+        ],
+        "date": [
+          {
+            "fontFamily": "Tawuniya"
+          }
+        ]
+      }
+    },
     "stackedAreaChart": {
       "*": {
         "legend": [
