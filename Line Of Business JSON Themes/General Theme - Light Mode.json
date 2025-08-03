@@ -730,185 +730,40 @@
         ]
       }
     },
-    "pivotTabl": {
+    "pivotTable": {
       "*": {
-        "columnHeaders": [
+        "grid": [
           {
-            "bold": true,
-            "fontFamily": "Tawuniya",
-            "backColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "outline": "None",
             "outlineColor": {
               "solid": {
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
                       "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "grid": [
-          {
-            "gridHorizontalColor": {
-              "solid": {
-                "color": "#F7F7f7"
-              }
-            },
-            "rowPadding": 8,
-            "outline": "None",
-            "gridHorizontal": true,
-            "gridVertical": false
-          }
-        ],
-        "rowTotal": [
-          {
-            "applyToHeaders": true,
-            "backColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
+                      "Percent": -0.2
                     }
                   }
                 }
               }
             },
-            "bold": true,
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "fontFamily": "Tawuniya"
-          }
-        ],
-        "columnTotal": [
-          {
-            "applyToHeaders": true,
-            "backColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "bold": true,
-            "fontFamily": "Tawuniya"
-          }
-        ],
-        "values": [
-          {
-            "backColorSecondary": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "backColorPrimary": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "bandedRowHeaders": true,
-            "fontFamily": "Tawuniya",
-            "outline": "None"
+            "outlineWeight": 2,
+            "rowPadding": 5
           }
         ],
         "rowHeaders": [
           {
-            "fontFamily": "Tawuniya",
-            "expandCollapseButtonsColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            },
-            "outline": "BottomOnly",
-            "outlineColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
-                }
-              }
-            }
+            "wordWrap": false
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "Minimal"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "text": "Table title"
           }
         ]
       }
