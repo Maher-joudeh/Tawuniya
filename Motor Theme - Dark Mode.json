@@ -280,7 +280,22 @@
         ],
         "value": [
           {
-            "show": false
+            "_comment": "Color Id 0 Is White  ----------------------------------#FF4135-------------------------------",
+            "show": true,
+            "fontFamily": "Tawuniya",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
           }
         ]
       }

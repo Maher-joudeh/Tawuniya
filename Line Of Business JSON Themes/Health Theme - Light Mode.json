@@ -277,7 +277,21 @@
         ],
         "value": [
           {
-            "show": false
+            "show": true,
+            "fontFamily": "Tawuniya",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
           }
         ]
       }
