@@ -1,15 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
-  "name": "Motor Theme - Dark Mode ",
+  "name": "Health Theme - Dark Mode ",
   "dataColors": [
-    "#6A3009",
-    "#803A0B",
-    "#97440C",
-    "#B0500F",
-    "#CD5C10",
-    "#EC6B13",
-    "#FF8530",
-    "#FFA76C"
+    "#7C163D",
+    "#951A49",
+    "#AF2056",
+    "#CD2564",
+    "#EC2B74",
+    "#FF4C90",
+    "#FF79AC",
+    "#FF9FC4"
   ],
   "visualStyles": {
     "*": {
@@ -112,7 +112,7 @@
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
-                "color": "#ff731266"
+                "color": "#ff2e7d66"
               }
             },
             "gridlineStyle": "dotted",
@@ -939,9 +939,10 @@
       "*": {
         "columnHeaders": [
           {
+            "_comment": "This color is to be changed if theme colors are changed ----------------------------------#FF4135-------------------------------",
             "backColor": {
               "solid": {
-                "color": "#ff73121A"
+                "color": "#ff2e7d1a"
               }
             },
             "autoSizeColumnWidth": false,
@@ -1073,5 +1074,5 @@
   "secondLevelElements": "#EDF5FC",
   "thirdLevelElements": "#EDF5FC",
   "fourthLevelElements": "#EDF5FC",
-  "tableAccent": "#ff7312"
+  "tableAccent": "#ff2e7d"
 }
