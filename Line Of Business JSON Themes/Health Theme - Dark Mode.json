@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Health Theme - Dark Mode ",
   "dataColors": [
-    "#7C163D",
-    "#951A49",
-    "#AF2056",
-    "#CD2564",
-    "#EC2B74",
-    "#FF4C90",
+    "#FF9FC4",
     "#FF79AC",
-    "#FF9FC4"
+    "#FF4C90",
+    "#EC2B74",
+    "#CD2564",
+    "#AF2056",
+    "#951A49",
+    "#7C163D"
   ],
   "visualStyles": {
     "*": {
