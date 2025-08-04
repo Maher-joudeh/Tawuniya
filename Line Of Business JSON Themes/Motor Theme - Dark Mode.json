@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Motor Theme - Dark Mode ",
   "dataColors": [
-    "#6A3009",
-    "#803A0B",
-    "#97440C",
-    "#B0500F",
-    "#CD5C10",
-    "#EC6B13",
+    "#FFA76C",
     "#FF8530",
-    "#FFA76C"
+    "#EC6B13",
+    "#CD5C10",
+    "#B0500F",
+    "#97440C",
+    "#803A0B",
+    "#6A3009"
   ],
   "visualStyles": {
     "*": {
