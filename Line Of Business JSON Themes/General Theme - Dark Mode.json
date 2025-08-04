@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "General Theme - Dark Mode ",
   "dataColors": [
-    "#124933",
-    "#13593E",
-    "#1A6949",
-    "#1D7B55",
-    "#218F63",
-    "#26A472",
+    "#30D493",
     "#2CBC81",
-    "#30D493"
+    "#26A472",
+    "#218F63",
+    "#1D7B55",
+    "#1A6949",
+    "#13593E",
+    "#124933"
   ],
   "visualStyles": {
     "*": {
