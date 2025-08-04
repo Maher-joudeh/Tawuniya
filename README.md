@@ -9,11 +9,14 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 ### Line of Business JSON Themes
 
-- **General Theme - Light Mode**  
+- **General Theme - Light Mode**
+- **General Theme - Dark Mode**  
   Tailored colors and formatting for the General line of business.
-- **Health Theme - Light Mode**  
+- **Health Theme - Light Mode**
+- **Health Theme - Dark Mode**  
   Tailored colors and formatting for the Health line of business.
-- **Motor Theme - Light Mode**  
+- **Motor Theme - Light Mode**
+- **Motor Theme - Dark Mode**  
   Tailored colors and formatting for the Motor line of business.
 
 ### Assets
