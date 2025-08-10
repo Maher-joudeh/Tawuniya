@@ -25,7 +25,7 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line.
 
-## Usage
+## How To Use Themes in Power BI Desktop
 
 1. Download the desired `.json` file.
 2. Open Your Report
