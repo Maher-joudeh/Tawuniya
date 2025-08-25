@@ -8,9 +8,8 @@
     "#9073F2",
     "#A8A9CF",
     "#D6D1ED",
-    "#33E39D",
-    "#FF2E7D",
-    "#FF7312"
+    "#5C57A2",
+    "#6B47F5"
   ],
   "visualStyles": {
     "*": {
@@ -464,7 +463,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 8,
                       "Percent": 0.6
                     }
                   }
