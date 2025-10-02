@@ -16,7 +16,7 @@
       "*": {
         "background": [
           {
-            "_comment": "This color is to be changed if theme colors are changed ----------------------------------#FF4135-------------------------------",
+            "_comment": "This color is to be changed if theme colors are changed -----------------------------------#FF4135-------------------------------",
             "color": {
               "solid": {
                 "color": "#322F53"
