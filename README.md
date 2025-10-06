@@ -35,6 +35,9 @@ This folder contains assets developers may need, including dark- and light-mode 
 3. In Power BI Desktop, go to **View > Themes > Browse for themes...**
 4. Select the downloaded file to apply the theme across your report.
 
+For Further Instructions See Here Guide Below:
+https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
+
 ## License
 
 All rights reserved for Tawuniya Insurance.
