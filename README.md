@@ -33,7 +33,7 @@ This folder contains assets developers may need, including dark- and light-mode 
 1. Download the desired `.json` file.
 2. Open Your Report.
 3. In Power BI Desktop, go to **View > Themes > Browse for themes...**
-4. Select the downloaded file to apply the theme across your report.
+4. Select the downloaded file to apply the theme across your report
 
 ##### For Further Instructions Follow The Guide Below: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
 
