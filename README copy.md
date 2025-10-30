@@ -28,6 +28,24 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line
 
+- **Assets folder** → [`/Assets`](./Assets)
+
+- **Tawuniya Logos**
+
+  - Light Mode → [`./Assets/Tawuniya%20Logo%20-%20Light.svg`](./Assets/Tawuniya%20Logo%20-%20Light.svg)
+  - Dark Mode → [`./Assets/Tawuniya%20Logo%20-%20Dark.svg`](./Assets/Tawuniya%20Logo%20-%20Dark.svg)
+
+- **Line of Business Logos**
+
+  - General → [`./Assets/General%20Logo.svg`](./Assets/General%20Logo.svg)
+  - Health → [`./Assets/Health%20Logo.svg`](./Assets/Health%20Logo.svg)
+  - Motor → [`./Assets/Motor%20Logo.svg`](./Assets/Motor%20Logo.svg)
+
+- **Line of Business Icons**
+  - General → [`./Assets/General%20Icon.svg`](./Assets/General%20Icon.svg)
+  - Health → [`./Assets/Health%20Icon.svg`](./Assets/Health%20Icon.svg)
+  - Motor → [`./Assets/Motor%20Icon.svg`](./Assets/Motor%20Icon.svg)
+
 ### Power BI Desktop Grid Guide
 
 ![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
