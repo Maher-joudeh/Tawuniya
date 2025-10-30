@@ -1,40 +1,47 @@
 # Tawuniya Power BI Themes
 
-A collection of Power BI JSON theme files for Tawuniya dashboards curated by the data office, organized by line of business to ensure visual consistency and brand alignment.
+A collection of Power BI JSON theme files for Tawuniya dashboards curated by the data office, organized by line of business to ensure visual consistency and brand alignment
 
 ## Included Themes
 
-- **Tawuniya Colorful - Dark Mode** / **Tawuniya Colorful - Light Mode**  
-  The primary theme reflecting our data office colors.
+- **[Tawuniya Colorful - Dark Mode](./Tawuniya%20Colorful%20-%20Dark%20Mode.json)** / **[Tawuniya Colorful - Light Mode](./Tawuniya%20Colorful%20-%20Light%20Mode.json)**  
+  The primary theme reflecting our data office colors
 
-- **Tawuniya Main Brand - Light Mode**  
-  The primary theme following tawuniya's main brand colors.
+- **[Tawuniya Main Brand - Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
+  The primary theme following tawuniya's main brand colors
 
 ### Line of Business JSON Themes
 
-- **General Theme - Light Mode** / **General Theme - Dark Mode**
+- **[General Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/General%20Theme%20-%20Light%20Mode.json)** / **[General Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/General%20Theme%20-%20Dark%20Mode.json)**
 
-  Tailored colors and formatting for the General line of business.
+  Tailored colors and formatting for the General line of business
 
-- **Health Theme - Light Mode** / **Health Theme - Dark Mode**
+- **[Health Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/Health%20Theme%20-%20Light%20Mode.json)** / **[Health Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/Health%20Theme%20-%20Dark%20Mode.json)**
 
-  Tailored colors and formatting for the Health line of business.
+  Tailored colors and formatting for the Health line of business
 
-- **Motor Theme - Light Mode** / **Motor Theme - Dark Mode**
+- **[Motor Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Light%20Mode.json)** / **[Motor Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Dark%20Mode.json)**
 
-  Tailored colors and formatting for the Motor line of business.
+  Tailored colors and formatting for the Motor line of business
 
 ### Assets
 
-This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line.
+This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line
 
-### Power BI Desktop Grid Guide
+**Tawuniya LOB Logos**
+
+|                | General                                                                                                    | Health                                                                                                    | Mobility                                                                                                      |
+| -------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Dark Mode**  | [ General - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)   | [ Health - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)    | [ Mobility - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)    |
+| **Light Mode** | [General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [ Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [ Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
+
+### Power BI Desktop Grid
 
 ![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
 
 Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
 
-**Recommended usage**
+**How To Use**
 
 1. In Power BI Desktop, select an empty area on the canvas and open **Format > Canvas background**
 2. Choose **Image** and browse to `Desktop Grid.svg`
@@ -43,8 +50,8 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 
 ## How To Use Themes in Power BI Desktop
 
-1. Download the desired `.json` file.
-2. Open Your Report.
+1. Download the desired `.json` file
+2. Open Your Report
 3. In Power BI Desktop, go to **View > Themes > Browse for themes...**
 4. Select the downloaded file to apply the theme across your report
 
@@ -52,4 +59,4 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 
 ## License
 
-All rights reserved for Tawuniya Insurance.
+All rights reserved for Tawuniya Insurance
