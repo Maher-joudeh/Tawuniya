@@ -30,25 +30,23 @@ This folder contains assets developers may need, including dark- and light-mode 
 
 - **Tawuniya LOB Logos**
 
-#### LOB Logos
+<details>
+  <summary><strong>LOB Logos</strong> — click to expand</summary>
 
 | Mode           | General                                                                                                                  | Health                                                                                                                 | Mobility                                                                                                                   |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **Dark Mode**  | [Tawuniya Logo General - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)    | [Tawuniya Logo Health - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)    | [Tawuniya Logo Mobility - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)    |
 | **Light Mode** | [Tawuniya Logo General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [Tawuniya Logo Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [Tawuniya Logo Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
 
-- **Line of Business Icons**
-  - General → [`./Assets/General%20Icon.svg`](./Assets/General%20Icon.svg)
-  - Health → [`./Assets/Health%20Icon.svg`](./Assets/Health%20Icon.svg)
-  - Motor → [`./Assets/Motor%20Icon.svg`](./Assets/Motor%20Icon.svg)
+</details>
 
-### Power BI Desktop Grid Guide
+### Power BI Desktop Grid
 
 ![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
 
 Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
 
-**Recommended usage**
+**How To Use**
 
 1. In Power BI Desktop, select an empty area on the canvas and open **Format > Canvas background**
 2. Choose **Image** and browse to `Desktop Grid.svg`
