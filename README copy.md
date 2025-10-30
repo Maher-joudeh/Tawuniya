@@ -32,8 +32,8 @@ This folder contains assets developers may need, including dark- and light-mode 
 
 - **Tawuniya Logos**
 
-  - Light Mode → [`./Assets/Tawuniya%20Logo%20-%20Light.svg`](./Assets/Tawuniya%20Logo%20-%20Light.svg)
-  - Dark Mode → [`./Assets/Tawuniya%20Logo%20-%20Dark.svg`](./Assets/Tawuniya%20Logo%20-%20Dark.svg)
+  - Light Mode → [`./Assets/Tawuniya%20Logo%20Light.svg`](./Assets/Tawuniya%20Logo%20Light.svg)
+  - Dark Mode → [`./Assets/Tawuniya%20Logo%20Dark.svg`](./Assets/Tawuniya%20Logo%20Dark.svg)
 
 - **Line of Business Logos**
 
