@@ -37,9 +37,9 @@ This folder contains assets developers may need, including dark- and light-mode 
 
 ### Power BI Desktop Grid
 
-![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
-
 Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
+
+![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
 
 **How To Use**
 
