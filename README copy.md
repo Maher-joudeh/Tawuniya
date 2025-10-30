@@ -30,15 +30,10 @@ This folder contains assets developers may need, including dark- and light-mode 
 
 - **Tawuniya LOB Logos**
 
-<details>
-  <summary><strong>LOB Logos</strong> — click to expand</summary>
-
 | Mode           | General                                                                                                                  | Health                                                                                                                 | Mobility                                                                                                                   |
 | -------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **Dark Mode**  | [Tawuniya Logo General - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)    | [Tawuniya Logo Health - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)    | [Tawuniya Logo Mobility - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)    |
 | **Light Mode** | [Tawuniya Logo General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [Tawuniya Logo Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [Tawuniya Logo Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
-
-</details>
 
 ### Power BI Desktop Grid
 
