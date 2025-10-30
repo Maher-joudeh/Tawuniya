@@ -1,7 +1,27 @@
-### Tawuniya Colorful Theme – Light Mode
+## Included Themes
 
-| Primary                                                                | Secondary                                                              | Accent                                                                 | Background                                                             | Text                                                                   |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| ![#004B8D](https://via.placeholder.com/20/004B8D/004B8D.png) `#004B8D` | ![#00ADEF](https://via.placeholder.com/20/00ADEF/00ADEF.png) `#00ADEF` | ![#FFC20E](https://via.placeholder.com/20/FFC20E/FFC20E.png) `#FFC20E` | ![#FFFFFF](https://via.placeholder.com/20/FFFFFF/FFFFFF.png) `#FFFFFF` | ![#000000](https://via.placeholder.com/20/000000/000000.png) `#000000` |
+### Tawuniya Colorful
 
-> The official color palette for the Tawuniya Colorful theme. Use this in Power BI to ensure visual consistency across reports.
+- [Light Mode](./Themes/Tawuniya%20Colorful%20-%20Light%20Mode.json)
+- [Dark Mode](./Themes/Tawuniya%20Colorful%20-%20Dark%20Mode.json)
+
+### Tawuniya Main Brand
+
+- [Light Mode](./Themes/Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)
+
+### Line of Business Themes
+
+**General**
+
+- [Light Mode](./Themes/General%20Theme%20-%20Light%20Mode.json)
+- [Dark Mode](./Themes/General%20Theme%20-%20Dark%20Mode.json)
+
+**Health**
+
+- [Light Mode](./Themes/Health%20Theme%20-%20Light%20Mode.json)
+- [Dark Mode](./Themes/Health%20Theme%20-%20Dark%20Mode.json)
+
+**Motor**
+
+- [Light Mode](./Themes/Motor%20Theme%20-%20Light%20Mode.json)
+- [Dark Mode](./Themes/Motor%20Theme%20-%20Dark%20Mode.json)
