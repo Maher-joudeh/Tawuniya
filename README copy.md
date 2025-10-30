@@ -4,23 +4,23 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 ## Included Themes
 
-- **[Tawuniya Colorful - Dark Mode](./Themes/Tawuniya%20Colorful%20-%20Dark%20Mode.json)** / **[Tawuniya Colorful - Light Mode](./Themes/Tawuniya%20Colorful%20-%20Light%20Mode.json)**  
+- **[Tawuniya Colorful - Dark Mode](./Tawuniya%20Colorful%20-%20Dark%20Mode.json)** / **[Tawuniya Colorful - Light Mode](./Tawuniya%20Colorful%20-%20Light%20Mode.json)**  
   The primary theme reflecting our data office colors
 
-- **[Tawuniya Main Brand - Light Mode](./Themes/Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
+- **[Tawuniya Main Brand - Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
   The primary theme following tawuniya's main brand colors
 
 ### Line of Business JSON Themes
 
-- **[General Theme - Light Mode](./Themes/General%20Theme%20-%20Light%20Mode.json)** / **[General Theme - Dark Mode](./Themes/General%20Theme%20-%20Dark%20Mode.json)**
+- **[General Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/General%20Theme%20-%20Light%20Mode.json)** / **[General Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/General%20Theme%20-%20Dark%20Mode.json)**
 
   Tailored colors and formatting for the General line of business
 
-- **[Health Theme - Light Mode](./Themes/Health%20Theme%20-%20Light%20Mode.json)** / **[Health Theme - Dark Mode](./Themes/Health%20Theme%20-%20Dark%20Mode.json)**
+- **[Health Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/Health%20Theme%20-%20Light%20Mode.json)** / **[Health Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/Health%20Theme%20-%20Dark%20Mode.json)**
 
   Tailored colors and formatting for the Health line of business
 
-- **[Motor Theme - Light Mode](./Themes/Motor%20Theme%20-%20Light%20Mode.json)** / **[Motor Theme - Dark Mode](./Themes/Motor%20Theme%20-%20Dark%20Mode.json)**
+- **[Motor Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Light%20Mode.json)** / **[Motor Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Dark%20Mode.json)**
 
   Tailored colors and formatting for the Motor line of business
 
