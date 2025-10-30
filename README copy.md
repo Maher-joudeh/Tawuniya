@@ -28,18 +28,14 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line
 
-- **Assets folder** → [`/Assets`](./Assets)
+- **Tawuniya LOB Logos**
 
-- **Tawuniya Logos**
+#### LOB Logos
 
-  - Light Mode → [`./Assets/Tawuniya%20Logo%20Light.svg`](./Assets/Tawuniya%20Logo%20Light.svg)
-  - Dark Mode → [`./Assets/Tawuniya%20Logo%20Dark.svg`](./Assets/Tawuniya%20Logo%20Dark.svg)
-
-- **Line of Business Logos**
-
-  - General → [`./Assets/General%20Logo.svg`](./Assets/General%20Logo.svg)
-  - Health → [`./Assets/Health%20Logo.svg`](./Assets/Health%20Logo.svg)
-  - Motor → [`./Assets/Motor%20Logo.svg`](./Assets/Motor%20Logo.svg)
+| Mode           | General                                                                                                                  | Health                                                                                                                 | Mobility                                                                                                                   |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| **Dark Mode**  | [Tawuniya Logo General - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)    | [Tawuniya Logo Health - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)    | [Tawuniya Logo Mobility - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)    |
+| **Light Mode** | [Tawuniya Logo General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [Tawuniya Logo Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [Tawuniya Logo Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
 
 - **Line of Business Icons**
   - General → [`./Assets/General%20Icon.svg`](./Assets/General%20Icon.svg)
