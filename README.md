@@ -45,7 +45,7 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 
 1. In Power BI Desktop, select an empty area on the canvas and open **Format > Canvas background**
 2. Choose **Image** and browse to `Desktop Grid.svg`
-3. Set **Image fit** to **Fit** to avoid distortion on different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
+3. Set **Image fit** to **Fill** ensure it adapts to different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
 4. Align visuals to the columns and maintain consistent padding to the grid
 
 ## How To Use Themes in Power BI Desktop
