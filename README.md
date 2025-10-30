@@ -28,6 +28,19 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line.
 
+### Power BI Desktop Grid Guide
+
+![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
+
+Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
+
+**Recommended usage**
+
+1. In Power BI Desktop, select an empty area on the canvas and open **Format > Canvas background**
+2. Choose **Image** and browse to `Desktop Grid.svg`
+3. Set **Image fit** to **Fill** so that it adapts to any canvas and adjust **Transparency** to **50% ** so visuals are readable
+4. Align visuals to the columns and maintain consistent padding to the grid
+
 ## How To Use Themes in Power BI Desktop
 
 1. Download the desired `.json` file.
