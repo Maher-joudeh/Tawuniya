@@ -23,7 +23,7 @@ The primary theme used in data office dashboards reflecting our data office colo
 
 - **[Motor Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Light%20Mode.json)** / **[Motor Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Dark%20Mode.json)**
 
-  Tailored colors and formatting for the Motor line of business
+  Tailored colors and formatting for the Mobility line of business
 
 ### Assets
 
