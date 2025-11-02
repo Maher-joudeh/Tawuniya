@@ -4,10 +4,10 @@ A collection of Power BI JSON theme files for Tawuniya dashboards curated by the
 
 ## Included Themes
 
-- **[Tawuniya Colorful - Dark Mode](./Tawuniya%20Colorful%20-%20Dark%20Mode.json)** / **[Tawuniya Colorful - Light Mode](./Tawuniya%20Colorful%20-%20Light%20Mode.json)**  
+- **[Tawuniya No.2 - Dark Mode](./Tawuniya%20Colorful%20-%20Dark%20Mode.json)** / **[Tawuniya No.2 - Light Mode](./Tawuniya%20Colorful%20-%20Light%20Mode.json)**  
   The primary theme reflecting our data office colors
 
-- **[Tawuniya Main Brand - Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
+- **[Tawuniya No.1 - Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
   The primary theme following tawuniya's main brand colors
 
 ### Line of Business JSON Themes
