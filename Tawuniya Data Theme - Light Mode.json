@@ -1023,7 +1023,7 @@
       "*": {
         "calloutValue": [
           {
-            "_comment": "Below text Classes colors is to be changed if theme is changed to light mode -----------------------------------#FF4135-------------------------------",
+            "_comment": "Below text Classes colors is to be changed if theme is changed to light mode ------------------------------------#FF4135-------------------------------",
             "fontFamily": "Tawuniya"
           }
         ]
