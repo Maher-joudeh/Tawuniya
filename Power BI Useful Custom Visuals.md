@@ -26,6 +26,8 @@ An advanced slicer visual with hierarchy control, default selections, image styl
 ### ![Slicer Sample](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Slicer%20Sample.png)  
 **[Slicer Sample](https://github.com/Microsoft/powerbi-visuals-sampleslicer/)**  
 Demonstrates the use of the advanced filtering API.
+*Note: This is a “.pbiviz” file from the GitHub repository — a developer sample version (MIT-licensed) of a custom visual, not a certified listing from AppSource.*  
+
 
 ---
 
