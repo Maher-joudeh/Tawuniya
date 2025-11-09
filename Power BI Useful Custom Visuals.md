@@ -79,6 +79,24 @@ A powerful tool with endless possibilities to uplift the visual aspect of dashbo
 
 ---
 
+### ![Slope Chart by MAQ Software](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Slope%20Chart%20by%20MAQ%20Software.png)  
+**[Slope Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381393?tab=Overview)**  
+Compare the start and end values across categories with a clear trend line illustrating growth or decline in one glance.  
+
+---
+
+### ![Box and Whisker Chart by MAQ Software](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Box%20and%20Whisker%20Chart%20by%20MAQ%20Software.png)  
+**[Box and Whisker Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351?tab=Overview)**  
+Efficiently analyse and compare data distributions across multiple categories using medians, quartiles, means, standard deviation and outliers for deeper insight.  
+
+---
+
+### ![Dumbbell Chart by MAQ Software](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Dumbbell%20Chart%20by%20MAQ%20Software.png)  
+**[Dumbbell Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381460?tab=Overview)**  
+Illustrates change and the distance between two data points across categories via a dual-axis line and circle combination chart.  
+
+---
+
 ### ![Scatter Chart by Akvelon](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Scatter%20Chart%20by%20Akvelon.png)  
 **[Scatter Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703?tab=Overview)**  
 Visualise your units using multiple measures (X-axis, Y-axis, size, saturation) with rectangle-selection, quadrant-lines and drill-down support 
