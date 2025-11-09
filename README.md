@@ -64,13 +64,10 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 
 ---
 
-### Power BI Custom Visuals
+### [Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
 
 A curated list of **useful Power BI custom visuals** that are completely **free to use** and designed to serve specific analytical and storytelling scenarios.  
-These visuals extend beyond the default Power BI capabilities—some address niche use cases not achievable through standard visuals, while others enhance the **visual appeal and interactivity** of dashboards.
-
-Explore the full list here:  
-[Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
+These visuals extend beyond the default Power BI capabilities—some address niche use cases not achievable through standard visuals, while others enhance the **visual appeal and interactivity** of dashboards. 
 
 ## License
 
