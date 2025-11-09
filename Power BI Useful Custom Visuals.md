@@ -119,6 +119,6 @@ Compare the relative importance of variables between two groups.
 
 ## Additional resources
 
-- [Samples of Power BI visuals on GitHub](https://github.com/microsoft/PowerBI-Developer-Samples) :contentReference[oaicite:1]{index=1}  
-- [Power BI visuals documentation](https://learn.microsoft.com/en-us/power-bi/developer/visuals/) :contentReference[oaicite:2]{index=2}  
+- [Power BI visuals documentation](https://learn.microsoft.com/en-us/power-bi/developer/visuals/) 
+- [Samples of Power BI visuals on GitHub](https://github.com/microsoft/PowerBI-Developer-Samples)  
 
