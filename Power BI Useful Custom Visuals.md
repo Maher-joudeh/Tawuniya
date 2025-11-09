@@ -9,11 +9,11 @@ A collection of Useful Power BI Custom Visuals TBC
 Usage: Display image or text buttons that act as an in-canvas filter on other visuals.
 
 ### ![Timeline Slicer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Timeline%20Slicer.png)  
-**[Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381367)**  
+**[Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786?tab=Overview)**  
 Usage: Graphical date-range selector that filters by date.
 
 ### ![Slicer Sample](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Slicer%20Sample.png)  
-**[Slicer Sample](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381922)**  
+**[Slicer Sample](https://github.com/Microsoft/powerbi-visuals-sampleslicer/)**  
 Usage: Demonstrates the use of the advanced filtering API.
 
 ## Charts
