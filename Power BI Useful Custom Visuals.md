@@ -62,27 +62,17 @@ Usage: A powerful KPI Indicator with multi-line chart and labels for current dat
 **[Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384209)**  
 Usage: Monitor balanced scorecards and unlimited number of metrics and KPIs in a compact, easy-to-read list.
 
-### ![Radar Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Radar Chart.png)  
-**[Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384489)**  
-Usage: Presents multiple measures plotted over a categorical axis, which is useful to compare attributes.
+### ![Radar Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Radar%20Chart.png)  
+**[Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380760)**  
+Usage: Presents multiple measures plotted over a categorical axis, which is useful to compare attributes.  
 
-### ![Sankey Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sankey Chart.png)  
-**[Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384602)**  
-Usage: Flow diagram where the width of the series is proportional to the quantity of the flow.
+### ![Sankey Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sankey%20Chart.png)  
+**[Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380761)**  
+Usage: Flow diagram where the width of the series is proportional to the quantity of the flow.  
 
-### ![Stream Graph](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Stream Graph.png)  
-**[Stream Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384717)**  
-Usage: A stacked area chart with smooth interpolation, often used to display values over time.
-
-### ![Sunburst Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sunburst Chart.png)  
-**[Sunburst Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384853)**  
-Usage: Multilevel donut chart for visualising hierarchical data.
-
-### ![Tornado Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Tornado Chart.png)  
-**[Tornado Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384981)**  
-Usage: Compare the relative importance of variables between two groups.
-
----
+### ![Stream Graph](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Stream%20Graph.png)  
+**[Stream Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380762)**  
+Usage: A stacked area chart with smooth interpolation, often used to display values over time.  
 
 ## Additional resources
 
