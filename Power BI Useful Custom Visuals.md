@@ -1,11 +1,6 @@
 # Power BI Useful Custom Visuals
 
-A collection of Power BI JSON theme files for Tawuniya dashboards curated by the data office, organized by line of business to ensure visual consistency and brand alignment
-
-## Included Themes
-# Examples of Power BI visuals
-
-This article gives examples of Power BI visuals that can be downloaded, used, and modified from GitHub. :contentReference[oaicite:0]{index=0}
+A collection of Useful Power BI Custom Visuals TBC
 
 ## Slicers
 
