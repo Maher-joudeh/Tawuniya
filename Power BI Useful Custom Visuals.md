@@ -85,7 +85,7 @@ Compare the start and end values across categories with a clear trend line illus
 
 ---
 
-### ![Box and Whisker Chart by MAQ Software](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Box%20and%20Whisker%20Chart%20by%20MAQ%20Software.png)  
+### ![Box and Whisker Chart by MAQ Software](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Box%20and%20Whisker%20chart%20by%20MAQ%20Software.png)  
 **[Box and Whisker Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381351?tab=Overview)**  
 Efficiently analyse and compare data distributions across multiple categories using medians, quartiles, means, standard deviation and outliers for deeper insight.  
 
