@@ -70,9 +70,13 @@ Presents multiple measures plotted over a categorical axis, which is useful to c
 **[Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380777?tab=Overview)**  
 Flow diagram where the width of the series is proportional to the quantity of the flow.  
 
-### ![Sunburst Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sunburst Chart.png)  
+### ![Sunburst Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sunburst%20Chart.png)  
 **[Sunburst Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380767?tab=Overview)**  
-Multilevel donut chart for visualising hierarchical data.
+Multilevel donut chart for visualising hierarchical data. 
+
+### ![Tornado Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Tornado20%Chart.png)  
+**[Tornado Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768?tab=Overview)**  
+Compare the relative importance of variables between two groups.
 
 ## Additional resources
 
