@@ -5,11 +5,11 @@ A collection of Useful Power BI Custom Visuals TBC
 ## Slicers
 
 ### ![Chiclet Slicer](./Assets/Chiclet%20Slicer.svg)  
-**[Chiclet Slicer](https://github.com/Microsoft/powerbi-visuals-chicletslicer/)**  
+**[Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756?tab=Overview/)**  
 Display image or text buttons that act as an in-canvas filter on other visuals.
 
 ### ![Timeline Slicer](./Assets/Timeline%20Slicer.svg)  
-**[Timeline Slicer](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/TimelineSlicer)**  
+**[Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786?tab=Overview)**  
 Graphical date-range selector that filters by date.
 
 ### ![Slicer sample](./Assets/Slicer%20sample.svg)  
