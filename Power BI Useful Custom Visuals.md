@@ -70,7 +70,7 @@ A bar-chart that illustrates a project timeline or schedule with resources.
 
 ### ![Definitive Logic Gantt](/Miscellaneous/PBI%20Custom%20Visuals%20Images/definitivelogic.png)  
 **[Definitive Logic Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/definitivelogic.dl-advanced-gantt?tab=Overview)**  
-TBD
+Equipped wiht task swim lanes and advanced customization, and supports both calendar and federal fiscal years. By adding boolean measures into the flags you can add conditioned formatting to individual tasks.
 
 ---
 
