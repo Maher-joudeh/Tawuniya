@@ -72,4 +72,5 @@ These visuals extend beyond the default Power BI capabilities—some address nic
 ## License
 
 © 2025 ATLAS Power Bl Data Visualization Library. All rights reserved.
+
 All rights reserved for Tawuniya Insurance.
