@@ -36,6 +36,8 @@ This folder contains assets developers may need, including dark- and light-mode 
 | **Dark Mode**  | [ General - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)   | [ Health - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)    | [ Mobility - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)    |
 | **Light Mode** | [General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [ Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [ Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
 
+---
+
 ### Power BI Desktop Grid
 
 Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
@@ -49,6 +51,8 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 3. Set **Image fit** to **Fill** ensure it adapts to different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
 4. Align visuals to the columns and maintain consistent padding to the grid
 
+---
+
 ## How To Use Themes in Power BI Desktop
 
 1. Download the desired `.json` file
@@ -57,6 +61,16 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 4. Select the downloaded file to apply the theme across your report
 
 ##### For Further Instructions Follow The Guide Below: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
+
+---
+
+### Power BI Custom Visuals
+
+A curated list of **useful Power BI custom visuals** that are completely **free to use** and designed to serve specific analytical and storytelling scenarios.  
+These visuals extend beyond the default Power BI capabilities—some address niche use cases not achievable through standard visuals, while others enhance the **visual appeal and interactivity** of dashboards.
+
+Explore the full list here:  
+➡️ [Power BI Useful Custom Visuals](./Power%20BI%20Useful%20Custom%20Visuals.md)
 
 ## License
 
