@@ -38,6 +38,17 @@ This folder contains assets developers may need, including dark- and light-mode 
 
 ---
 
+## How To Use Themes in Power BI Desktop
+
+1. Download the desired `.json` file
+2. Open Your Report
+3. In Power BI Desktop, go to **View > Themes > Browse for themes...**
+4. Select the downloaded file to apply the theme across your report
+
+##### For Further Instructions Follow The Guide Below: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
+
+---
+
 ### Power BI Desktop Grid
 
 Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
@@ -50,17 +61,6 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 2. Choose **Image** and browse to `Desktop Grid.svg`
 3. Set **Image fit** to **Fill** ensure it adapts to different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
 4. Align visuals to the columns and maintain consistent padding to the grid
-
----
-
-## How To Use Themes in Power BI Desktop
-
-1. Download the desired `.json` file
-2. Open Your Report
-3. In Power BI Desktop, go to **View > Themes > Browse for themes...**
-4. Select the downloaded file to apply the theme across your report
-
-##### For Further Instructions Follow The Guide Below: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
 
 ---
 
