@@ -4,7 +4,7 @@ A collection of Useful Power BI Custom Visuals TBC
 
 ## Slicers
 
-### ![Chiclet Slicer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Chiclet%20Slicer.png)  
+## ![Chiclet Slicer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Chiclet%20Slicer.png)  
 **[Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756)**  
 Display image or text buttons that act as an in-canvas filter on other visuals.
 
