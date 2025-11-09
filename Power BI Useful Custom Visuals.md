@@ -4,111 +4,91 @@ A collection of Useful Power BI Custom Visuals TBC
 
 ## Slicers
 
-### ![Chiclet Slicer](./Assets/Chiclet%20Slicer.svg)  
-**[Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756?tab=Overview/)**  
-Display image or text buttons that act as an in-canvas filter on other visuals.
+### ![Chiclet Slicer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Chiclet%20Slicer.png)  
+**[Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756)**  
+Usage: Display image or text buttons that act as an in-canvas filter on other visuals.
 
-### ![Timeline Slicer](./Assets/Timeline%20Slicer.svg)  
-**[Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786?tab=Overview)**  
-Graphical date-range selector that filters by date.
+### ![Timeline Slicer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Timeline%20Slicer.png)  
+**[Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381367)**  
+Usage: Graphical date-range selector that filters by date.
 
-### ![Slicer sample](./Assets/Slicer%20sample.svg)  
-**[Slicer sample](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/SlicerSample)**  
-Demonstrates the use of the Advanced Filtering API.
+### ![Slicer Sample](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Slicer%20Sample.png)  
+**[Slicer Sample](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381922)**  
+Usage: Demonstrates the use of the advanced filtering API.
 
 ## Charts
 
-### ![Aster Plot](./Assets/Aster%20Plot.svg)  
-**[Aster Plot](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/AsterPlot)**  
-A twist on a standard donut chart that uses a second value to drive sweep angle.
+### ![Aster Plot](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Aster%20Plot.png)  
+**[Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382138)**  
+Usage: A twist on a standard donut chart that uses a second value to drive sweep angle.
 
-### ![Bullet chart](./Assets/Bullet%20chart.svg)  
-**[Bullet chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/BulletChart)**  
-A bar chart with extra visual elements that provide context useful for tracking metrics.
+### ![Bullet Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Bullet%20Chart.png)  
+**[Bullet Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382410)**  
+Usage: A bar chart with extra visual elements that provide context useful for tracking metrics.
 
-### ![Chord](./Assets/Chord.svg)  
-**[Chord](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/Chord)**  
-A graphical method that displays relationships between data in a matrix.
+### ![Chord](/Miscellaneous/PBI%20Custom%alsImages/Chord.png)  
+**[Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382569)**  
+Usage: Graphical method that displays relationships between data in a matrix.
 
-### ![Dot plot](./Assets/Dot%20plot.svg)  
-**[Dot plot](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/DotPlot)**  
-Shows the distribution of frequencies in a refined way.
+### ![Dot Plot](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Dot%20Plot.png)  
+**[Dot Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382731)**  
+Usage: Shows the distribution of frequencies in a refined way.
 
-### ![Dual KPI](./Assets/Dual%20KPI.svg)  
-**[Dual KPI](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/DualKPI)**  
-Efficiently visualizes two measures over time, showing their trend on a joint timeline.
+### ![Dual KPI](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Dual%20KPI.png)  
+**[Dual KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382865)**  
+Usage: Efficiently visualises two measures over time, showing their trend on a joint timeline.
 
-### ![Enhanced Scatter](./Assets/Enhanced%20Scatter.svg)  
-**[Enhanced Scatter](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/EnhancedScatter)**  
-Improves on the existing scatter chart with enhanced features.
+### ![Enhanced Scatter](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Enhanced%20Scatter.png)  
+**[Enhanced Scatter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383010)**  
+Usage: Improves on the existing scatter chart with enhanced features.
 
-### ![Force Graph](./Assets/Force%20Graph.svg)  
-**[Force Graph](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/ForceGraph)**  
-Force layout diagram with curved path, useful to show connections between entities.
+### ![Force Graph](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Force%20Graph.png)  
+**[Force Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383145)**  
+Usage: Force layout diagram with curved path, useful to show connections between entities.
 
-### ![Gantt](./Assets/Gantt.svg)  
-**[Gantt](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/Gantt)**  
-A bar-chart that illustrates a project timeline or schedule with resources.
+### ![Gantt](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Gantt.png)  
+**[Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383298)**  
+Usage: A bar-chart that illustrates a project timeline or schedule with resources.
 
-### ![Table Heatmap](./Assets/Table%20Heatmap.svg)  
-**[Table Heatmap](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/TableHeatmap)**  
-Compare data easily and intuitively using colours in a table.
+### ![Table Heatmap](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Table%20Heatmap.png)  
+**[Table Heatmap](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383419)**  
+Usage: Compare data easily and intuitively using colours in a table.
 
-### ![Histogram chart](./Assets/Histogram%20chart.svg)  
-**[Histogram chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/HistogramChart)**  
-Visualises the distribution of data over a continuous interval or certain time period.
+### ![Histogram Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Histogram%20Chart.png)  
+**[Histogram Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383561)**  
+Usage: Visualises the distribution of data over a continuous interval or certain time-period.
 
-### ![LineDot chart](./Assets/LineDot%20chart.svg)  
-**[LineDot chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/LineDotChart)**  
-An animated line chart with animated dots that engage an audience with data.
+### ![LineDot Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/LineDot%20Chart.png)  
+**[LineDot Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383690)**  
+Usage: An animated line chart with animated dots that engage an audience with data.
 
-### ![Mekko chart](./Assets/Mekko%20chart.svg)  
-**[Mekko chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/MekkoChart)**  
-A mix of 100% stacked column chart and 100% stacked bar chart combined into one view.
+### ![Mekko Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Mekko%20Chart.png)  
+**[Mekko Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383845)**  
+Usage: A mix of 100 % stacked column chart and 100 % stacked bar chart combined into one view.
 
-### ![Multi KPI](./Assets/Multi%20KPI.svg)  
-**[Multi KPI](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/MultiKPI)**  
-A powerful Multi KPI visualization with a key KPI along with multiple sparklines of supporting data.
+### ![Multi KPI](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Multi%20KPI.png)  
+**[Multi KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383950)**  
+Usage: A powerful Multi KPI visualization with a key KPI along with multiple sparklines of supporting data.
 
-### ![Power KPI](./Assets/Power%20KPI.svg)  
-**[Power KPI](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/PowerKPI)**  
-A powerful KPI Indicator with multi-line chart and labels for current date, value, and variances.
+### ![Power KPI](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Power%20KPI.png)  
+**[Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384107)**  
+Usage: A powerful KPI Indicator with multi-line chart and labels for current date, value, and variances.
 
-### ![Power KPI Matrix](./Assets/Power%20KPI%20Matrix.svg)  
-**[Power KPI Matrix](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/PowerKPIMatrix)**  
-Monitor balanced scorecards and unlimited number of metrics and KPIs in a compact, easy-to-read list.
+### ![Power KPI Matrix](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Power%20KPI%20Matrix.png)  
+**[Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384209)**  
+Usage: Monitor balanced scorecards and unlimited number of metrics and KPIs in a compact, easy-to-read list.
 
-### ![Pulse chart](./Assets/Pulse%20chart.svg)  
-**[Pulse chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/PulseChart)**  
-This line chart annotated with key events is perfect for telling stories with data.
+### ![Pulse Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Pulse%20Chart.png)  
+**[Pulse Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384331)**  
+Usage: This line chart annotated with key events is perfect for telling stories with data.
 
-### ![Radar chart](./Assets/Radar%20chart.svg)  
-**[Radar chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/RadarChart)**  
-Presents multiple measures plotted over a categorical axis, which is useful to compare attributes.
+### ![Radar Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Radar Chart.png)  
+**[Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384489)**  
+Usage: Presents multiple measures plotted over a categorical axis, which is useful to compare attributes.
 
-### ![Sankey chart](./Assets/Sankey%20chart.svg)  
-**[Sankey chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/SankeyChart)**  
-Flow diagram where the width of the series is proportional to the quantity of the flow.
+### ![Sankey Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sankey Chart.png)  
+**[Sankey Chart](https://a)**
 
-### ![Stream graph](./Assets/Stream%20graph.svg)  
-**[Stream graph](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/StreamGraph)**  
-A stacked area chart with smooth interpolation, often used to display values over time.
-
-### ![Sunburst chart](./Assets/Sunburst%20chart.svg)  
-**[Sunburst chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/SunburstChart)**  
-Multilevel donut chart for visualising hierarchical data.
-
-### ![Tornado chart](./Assets/Tornado%20chart.svg)  
-**[Tornado chart](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/TornadoChart)**  
-Compare the relative importance of variables between two groups.
-
-### ![Word Cloud](./Assets/Word%20Cloud.svg)  
-**[Word Cloud](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/WordCloud)**  
-Create a fun visual from frequent text in your data.
-
-### ![WebGL](./Assets/WebGL.svg)  
-**[WebGL](https://github.com/microsoft/PowerBI-Developer-Samples/tree/main/samples/WebGL)**  
-WebGL lets web content use an API based on OpenGL ES 2.0 to do 2D and 3D rendering in an HTML canvas.
 
 ---
 
