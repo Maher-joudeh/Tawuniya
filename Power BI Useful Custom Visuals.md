@@ -70,7 +70,7 @@ Embed data-bound card templates inside Power BI to deliver interactive, formatte
 
 ## Charts
 
-### ![Infographic Designer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%201.png)  
+### ![Infographic Designer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%20one.png)  
 ### ![Infographic Designer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%202.png)  
 **[Infographic Designer](https://appsource.microsoft.com/en-ae/product/power-bi-visuals/WA104380898?tab=Overview)**  
 A powerful tool with endless possibilities to uplift the visual aspect of dashboards — enabling you to transform standard charts into rich, branded infographic-style reports equipped with custom shapes, images, layout control, and advanced styling.  
