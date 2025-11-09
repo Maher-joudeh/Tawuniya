@@ -26,25 +26,9 @@ Usage: A twist on a standard donut chart that uses a second value to drive sweep
 **[Bullet Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382410)**  
 Usage: A bar chart with extra visual elements that provide context useful for tracking metrics.
 
-### ![Chord](/Miscellaneous/PBI%20Custom%alsImages/Chord.png)  
-**[Chord](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382569)**  
-Usage: Graphical method that displays relationships between data in a matrix.
-
-### ![Dot Plot](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Dot%20Plot.png)  
-**[Dot Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382731)**  
-Usage: Shows the distribution of frequencies in a refined way.
-
 ### ![Dual KPI](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Dual%20KPI.png)  
 **[Dual KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104382865)**  
 Usage: Efficiently visualises two measures over time, showing their trend on a joint timeline.
-
-### ![Enhanced Scatter](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Enhanced%20Scatter.png)  
-**[Enhanced Scatter](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383010)**  
-Usage: Improves on the existing scatter chart with enhanced features.
-
-### ![Force Graph](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Force%20Graph.png)  
-**[Force Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383145)**  
-Usage: Force layout diagram with curved path, useful to show connections between entities.
 
 ### ![Gantt](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Gantt.png)  
 **[Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104383298)**  
@@ -78,17 +62,25 @@ Usage: A powerful KPI Indicator with multi-line chart and labels for current dat
 **[Power KPI Matrix](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384209)**  
 Usage: Monitor balanced scorecards and unlimited number of metrics and KPIs in a compact, easy-to-read list.
 
-### ![Pulse Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Pulse%20Chart.png)  
-**[Pulse Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384331)**  
-Usage: This line chart annotated with key events is perfect for telling stories with data.
-
 ### ![Radar Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Radar Chart.png)  
 **[Radar Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384489)**  
 Usage: Presents multiple measures plotted over a categorical axis, which is useful to compare attributes.
 
 ### ![Sankey Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sankey Chart.png)  
-**[Sankey Chart](https://a)**
+**[Sankey Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384602)**  
+Usage: Flow diagram where the width of the series is proportional to the quantity of the flow.
 
+### ![Stream Graph](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Stream Graph.png)  
+**[Stream Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384717)**  
+Usage: A stacked area chart with smooth interpolation, often used to display values over time.
+
+### ![Sunburst Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Sunburst Chart.png)  
+**[Sunburst Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384853)**  
+Usage: Multilevel donut chart for visualising hierarchical data.
+
+### ![Tornado Chart](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Tornado Chart.png)  
+**[Tornado Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104384981)**  
+Usage: Compare the relative importance of variables between two groups.
 
 ---
 
