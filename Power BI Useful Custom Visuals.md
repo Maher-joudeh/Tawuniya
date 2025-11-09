@@ -17,6 +17,12 @@ Graphical date-range selector that filters by date.
 
 ---
 
+### ![Filter by Powerviz](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Filter%20by%20Powerviz.png)  
+**[Filter by Powerviz](https://appsource.microsoft.com/en-us/product/power-bi-visuals/truvizinc1674781244292.filter-by-powerviz?tab=Overview)**  
+An advanced slicer visual with hierarchy control, default selections, image styling and full customization for page-level filtering  
+
+---
+
 ### ![Slicer Sample](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Slicer%20Sample.png)  
 **[Slicer Sample](https://github.com/Microsoft/powerbi-visuals-sampleslicer/)**  
 Demonstrates the use of the advanced filtering API.
@@ -49,7 +55,46 @@ A powerful Multi KPI visualization with a key KPI along with multiple sparklines
 
 ---
 
+### ![Dynamic KPI Card by Sereviso](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Dynamic%20KPI%20Card%20by%20Sereviso.png)  
+**[Dynamic KPI Card by Sereviso](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200002081?tab=Overview)**  
+Show a main KPI with up to two comparison references, with dynamic border colour and arrows for variance indicators  
+
+---
+
+
+### ![AdaptiveCards](/Miscellaneous/PBI%20Custom%20Visuals%20Images/AdaptiveCards.png)  
+**[AdaptiveCards](https://appsource.microsoft.com/en-ae/product/power-bi-visuals/WA200002341?tab=Overview)**  
+Embed data-bound card templates inside Power BI to deliver interactive, formatted visuals combining card layout and slicer functionality.  
+
+---
+
 ## Charts
+
+### ![Infographic Designer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%201.png)  
+### ![Infographic Designer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%202.png)  
+**[Infographic Designer](https://appsource.microsoft.com/en-ae/product/power-bi-visuals/WA104380898?tab=Overview)**  
+A powerful tool with endless possibilities to uplift the visual aspect of dashboards — enabling you to transform standard charts into rich, branded infographic-style reports equipped with custom shapes, images, layout control, and advanced styling.  
+
+---
+
+### ![Scatter Chart by Akvelon](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Scatter%20Chart%20by%20Akvelon.png)  
+**[Scatter Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381703?tab=Overview)**  
+Visualise your units using multiple measures (X-axis, Y-axis, size, saturation) with rectangle-selection, quadrant-lines and drill-down support 
+
+---
+
+
+### ![Donut Chart by JTA](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Donut%20Chart%20by%20JTA.png)  
+**[Donut Chart by JTA](https://appsource.microsoft.com/en-us/product/power-bi-visuals/jtathedatascientists1592432854663.donut_chart?tab=Overview)**  
+An innovative visual that segments data into "Positive", "Neutral", and "Negative" categories, ideal for sentiment-analysis or opinion distribution  
+
+---
+
+### ![Custom Calendar by Akvelon](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Custom%20Calendar%20by%20Akvelon.png)  
+**[Custom Calendar by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381179?tab=Overview)**  
+Visualise and format daily-level data (attendance, project hours, traffic etc.) on a calendar grid with multiple metrics and full styling options.  
+
+---
 
 ### ![Aster Plot](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Aster%20Plot.png)  
 **[Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759?tab=Overview)**  
