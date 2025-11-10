@@ -1,21 +1,3 @@
-# Power BI Useful Custom Visuals
-
-A curated list of **useful Power BI custom visuals** that are completely **free to use** and designed to serve specific analytical and storytelling scenarios.  
-These visuals extend beyond the default Power BI capabilities—some address niche use cases not achievable through standard visuals, while others enhance the **visual appeal and interactivity** of dashboards. 
-
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Create a detailed and comprehensive table mapping JSON properties to their corresponding design tokens.
-
-Column 1: The exact JSON property path (e.g., valueAxis/grid/gridlineColor) — use the same naming convention as in the JSON structure.
-
-Column 2: The name of the alias token linked to that JSON property.
-
-Column 3: The option token associated with that alias token.
-
-Follow the same table format as the  example provided.
-
-Perfect! Now I'll create a comprehensive mapping table based on your token structure. Here's the complete table:
 
 ## **Power BI Theme JSON to Design Tokens Mapping Table**
 
@@ -123,10 +105,3 @@ Perfect! Now I'll create a comprehensive mapping table based on your token struc
 | Secondary Text Color | `textClasses.label.color` | `text-secondary` | `Color.Neutral.700` | `text-secondary` | `Color.Neutral.300` |
 
 This table provides complete traceability from Power BI JSON properties → Semantic Alias Tokens → Option (Base) Tokens for both light and dark modes!
-
-<div align="center">⁂</div>
-
-[^1]: image.jpg
-
-[^2]: variables.json
-
