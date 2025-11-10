@@ -71,7 +71,7 @@
     "lightLabel": {
       "fontSize": 10,
       "fontFace": "Tawuniya",
-      "color": "#62606F"
+      "color": "#4E4C5C"
     },
     "boldLabel": {
       "fontSize": 10,
@@ -82,12 +82,12 @@
     "largeLightLabel": {
       "fontSize": 12,
       "fontFace": "Tawuniya",
-      "color": "#62606F"
+      "color": "#4E4C5C"
     },
     "smallLightLabel": {
       "fontSize": 9,
       "fontFace": "Tawuniya",
-      "color": "#62606F"
+      "color": "#4E4C5C"
     },
     "semiboldLabel": {
       "fontSize": 10,
@@ -266,7 +266,6 @@
         }]
       }
     },
-    
     "actionButton": {
       "*": {
         "border": [{
@@ -363,7 +362,6 @@
         }]
       }
     },
-    
     "card": {
       "*": {
         "labels": [{
@@ -385,7 +383,6 @@
         }]
       }
     },
-    
     "cardVisual": {
       "*": {
         "accentBar": [{
@@ -535,7 +532,6 @@
         }]
       }
     },
-    
     "clusteredColumnChart": {
       "*": {
         "labels": [{
@@ -558,7 +554,6 @@
         }]
       }
     },
-    
     "columnChart": {
       "*": {
         "legend": [{
@@ -566,7 +561,6 @@
         }]
       }
     },
-    
     "donutChart": {
       "*": {
         "legend": [{
@@ -579,7 +573,6 @@
         }]
       }
     },
-    
     "pieChart": {
       "*": {
         "legend": [{
@@ -592,7 +585,6 @@
         }]
       }
     },
-    
     "page": {
       "*": {
         "background": [{
@@ -656,7 +648,6 @@
         }]
       }
     },
-    
     "slicer": {
       "*": {
         "background": [{
@@ -712,7 +703,6 @@
         }]
       }
     },
-    
     "tableEx": {
       "*": {
         "columnHeaders": [{
@@ -812,7 +802,6 @@
         }]
       }
     },
-    
     "textbox": {
       "*": {
         "background": [{
@@ -832,7 +821,6 @@
         }]
       }
     },
-    
     "shape": {
       "*": {
         "background": [{
@@ -842,6 +830,20 @@
           "show": false
         }],
         "outline": [{
+          "show": false
+        }]
+      }
+    },
+    "gauge": {
+      "*": {
+        "calloutValue": [{
+          "fontFamily": "Tawuniya"
+        }]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "legend": [{
           "show": false
         }]
       }
