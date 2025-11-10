@@ -1,16 +1,94 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
-  "name": "General Theme - Light Mode ",
+  "name": "Tawuniya - General Theme (Light Mode)",
+  
+  "_comment": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-11-10",
+    "client": "Tawuniya Insurance",
+    "tokensSource": "Figma Tokens Studio - option-tokens-default mode",
+    "dataColorsNote": "TAWN Light 01-08 palette for data visualization",
+    "structuralNote": "Neutral scale (25-900) for UI framework elements",
+    "sentimentNote": "Success/Error/Warning 500 values for status indicators",
+    "typographyNote": "Tawuniya font family (Secondary token) as primary typeface"
+  },
+  
+  "_tokenMapping": {
+    "dataColors[0]": "TAWN.Light.01 = #6B47F5",
+    "dataColors[1]": "TAWN.Light.03 = #8780F2",
+    "dataColors[2]": "TAWN.Light.04 = #9073F2",
+    "dataColors[3]": "TAWN.Light.05 = #A8A9CF",
+    "dataColors[4]": "TAWN.Light.06 = #D6D1ED",
+    "dataColors[5]": "TAWN.Light.07 = #5C57A2",
+    "dataColors[6]": "TAWN.Light.08 = #7F67BC",
+    "dataColors[7]": "TAWN.Light.02 = #312E52",
+    "background": "Neutral.25 = #F5F7F9",
+    "foreground": "Neutral.900 = #282639",
+    "secondaryBackground": "Neutral.white = #FFFFFF",
+    "tableAccent": "Brand.500 = #6B47F5",
+    "firstLevelElements": "Neutral.900 = #282639",
+    "secondLevelElements": "Neutral.600 = #62606F",
+    "thirdLevelElements": "Neutral.50 = #E7E7E9",
+    "fourthLevelElements": "Neutral.300 = #A2A1AA",
+    "good": "Success.500 = #10B981",
+    "bad": "Error.500 = #F43F5E",
+    "neutral": "Neutral.500 = #777582",
+    "maximum": "Brand.500 = #6B47F5",
+    "minimum": "Warning.50 = #FFFBEB",
+    "center": "Warning.500 = #F59E0B"
+  },
+  
   "dataColors": [
-    "#6b47f5",
-    "#ac8cff",
-    "#009dff",
-    "#76caff",
-    "#00b383",
-    "#5ed1b1",
-    "#A3B7F5",
-    "#A89CF8"
+    "#6B47F5",
+    "#8780F2",
+    "#9073F2",
+    "#A8A9CF",
+    "#D6D1ED",
+    "#5C57A2",
+    "#7F67BC",
+    "#312E52"
   ],
+  
+  "background": "#F5F7F9",
+  "foreground": "#282639",
+  "secondaryBackground": "#FFFFFF",
+  "tableAccent": "#6B47F5",
+  "firstLevelElements": "#282639",
+  "secondLevelElements": "#62606F",
+  "thirdLevelElements": "#E7E7E9",
+  "fourthLevelElements": "#A2A1AA",
+  
+  "good": "#10B981",
+  "bad": "#F43F5E",
+  "neutral": "#777582",
+  "maximum": "#6B47F5",
+  "minimum": "#FFFBEB",
+  "center": "#F59E0B",
+  
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "color": "#282639",
+      "fontFace": "Tawuniya"
+    },
+    "title": {
+      "fontSize": 12,
+      "color": "#282639",
+      "fontFace": "Tawuniya"
+    },
+    "header": {
+      "fontSize": 12,
+      "color": "#282639",
+      "fontFace": "Tawuniya",
+      "fontWeight": "bold"
+    },
+    "label": {
+      "fontSize": 10,
+      "color": "#282639",
+      "fontFace": "Tawuniya"
+    }
+  },
+  
   "visualStyles": {
     "*": {
       "*": {
@@ -28,10 +106,9 @@
           {
             "color": {
               "solid": {
-                "color": "#FFFFFF"
+                "color": "#E7E7E9"
               }
             },
-            "radius": 5,
             "show": true,
             "width": 0.5
           }
@@ -52,7 +129,7 @@
             "show": false,
             "color": {
               "solid": {
-                "color": "#0B1215"
+                "color": "#161528"
               }
             },
             "shadowBlur": 8,
@@ -109,7 +186,7 @@
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
-                "color": "#6b47f566"
+                "color": "#E7E7E9"
               }
             },
             "gridlineStyle": "dotted",
@@ -135,23 +212,6 @@
           {
             "show": true,
             "$id": "selected",
-            "border": {
-              "show": true,
-              "color": {
-                "solid": {
-                  "color": {
-                    "expr": {
-                      "ThemeDataColor": {
-                        "ColorId": 2,
-                        "Percent": 0
-                      }
-                    }
-                  }
-                }
-              },
-              "radius": 5,
-              "width": 0.5
-            },
             "fillColor": {
               "solid": {
                 "color": {
@@ -227,7 +287,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 1,
+                      "ColorId": 0,
                       "Percent": 0
                     }
                   }
@@ -282,14 +342,7 @@
             "fontSize": 12,
             "fontColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#282639"
               }
             }
           }
@@ -332,14 +385,7 @@
             "show": false,
             "lineColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0.6
-                    }
-                  }
-                }
+                "color": "#62606F"
               }
             },
             "weight": 0.5
@@ -366,7 +412,7 @@
             "fontSize": 8,
             "fontColor": {
               "solid": {
-                "color": "#0A2B43"
+                "color": "#282639"
               }
             }
           }
@@ -393,14 +439,7 @@
             "position": "Top",
             "color": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             }
           }
@@ -421,7 +460,7 @@
             "show": true,
             "dividerColor": {
               "solid": {
-                "color": "#CCCCCC"
+                "color": "#D0CFD4"
               }
             }
           }
@@ -460,14 +499,7 @@
             "transparency": 0,
             "lineColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": 0.6
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             }
           }
@@ -492,14 +524,7 @@
             "backgroundShow": true,
             "backgroundColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             },
             "backgroundTransparency": 92.5
@@ -534,14 +559,7 @@
             "show": true,
             "detailBackgroundColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             }
           }
@@ -569,7 +587,7 @@
             "show": false,
             "color": {
               "solid": {
-                "color": "#0A2B43"
+                "color": "#282639"
               }
             }
           }
@@ -579,7 +597,7 @@
             "fontSize": 9,
             "background": {
               "solid": {
-                "color": "#F1F3F6"
+                "color": "#F5F7F9"
               }
             },
             "text": "Add visual title here",
@@ -640,30 +658,6 @@
         ]
       }
     },
-    "htmlContent443BE3AD55E043BF878BED274D3A6855": {
-      "*": {
-        "padding": [
-          {
-            "bottom": 0,
-            "top": 0,
-            "left": 0,
-            "right": 0
-          }
-        ]
-      }
-    },
-    "htmlContent443BE3AD55E043BF878BED274D3A6865": {
-      "*": {
-        "padding": [
-          {
-            "bottom": 0,
-            "top": 0,
-            "left": 0,
-            "right": 0
-          }
-        ]
-      }
-    },
     "image": {
       "*": {
         "background": [
@@ -689,7 +683,7 @@
           {
             "color": {
               "solid": {
-                "color": "#F1F3F6"
+                "color": "#F5F7F9"
               }
             },
             "transparency": 0
@@ -699,7 +693,7 @@
           {
             "backgroundColor": {
               "solid": {
-                "color": "#F1F3F6"
+                "color": "#F5F7F9"
               }
             }
           }
@@ -714,7 +708,7 @@
             },
             "foregroundColor": {
               "solid": {
-                "color": "#0A2B43"
+                "color": "#282639"
               }
             },
             "inputBoxColor": {
@@ -747,14 +741,7 @@
           {
             "outlineColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": -0.2
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             },
             "outlineWeight": 2,
@@ -820,8 +807,7 @@
           {
             "show": false
           }
-        ],
-        "_comments": ""
+        ]
       }
     },
     "slicer": {
@@ -845,7 +831,7 @@
           {
             "background": {
               "solid": {
-                "color": "#F1F3F6"
+                "color": "#F5F7F9"
               }
             }
           }
@@ -862,38 +848,17 @@
           {
             "color": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             },
             "handleFillColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#FFFFFF"
               }
             },
             "handleBorderColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             },
             "show": true
@@ -936,7 +901,7 @@
           {
             "backColor": {
               "solid": {
-                "color": "#6b47f51A"
+                "color": "#F0EDFE"
               }
             },
             "autoSizeColumnWidth": false,
@@ -951,14 +916,7 @@
             "rowPadding": 3.5,
             "outlineColor": {
               "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 2,
-                      "Percent": 0
-                    }
-                  }
-                }
+                "color": "#6B47F5"
               }
             },
             "outlineStyle": 1,
@@ -1023,39 +981,10 @@
       "*": {
         "calloutValue": [
           {
-            "_comment": "Below text Classes colors is to be changed if theme is changed to light mode ------------------------------------#FF4135-------------------------------",
             "fontFamily": "Tawuniya"
           }
         ]
       }
     }
-  },
-  "textClasses": {
-    "callout": {
-      "color": "#22203D",
-      "fontFace": "Tawuniya"
-    },
-    "header": {
-      "color": "#22203D",
-      "fontFace": "Tawuniya"
-    },
-    "label": {
-      "color": "#22203D",
-      "fontFace": "Tawuniya"
-    },
-    "largeTitle": {
-      "color": "#22203D",
-      "fontFace": "Tawuniya"
-    },
-    "title": {
-      "color": "#22203D",
-      "fontFace": "Tawuniya"
-    }
-  },
-  "good": "#2bbe84",
-  "bad": "#FF4136",
-  "neutral": "#949599",
-  "maximum": "#6b47f5",
-  "minimum": "#FFF1E7",
-  "center": "#FF8F41"
+  }
 }
