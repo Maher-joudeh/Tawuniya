@@ -2,8 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General (Light Mode)",
   
- 
-  
   "dataColors": [
     "#6B47F5",
     "#312E52",
@@ -48,7 +46,6 @@
       "fontFace": "Tawuniya",
       "color": "#161528",
       "fontWeight": "bold"
-      
     },
     "header": {
       "fontSize": 12,
@@ -832,11 +829,6 @@
           "left": 0,
           "right": 0,
           "top": 0
-        }],
-        "general": [{
-          "paragraphs": [{
-          
-          }]
         }]
       }
     },
