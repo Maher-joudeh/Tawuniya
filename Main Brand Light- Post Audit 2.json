@@ -2,18 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General Theme (Light)",
   
-  "_comment": {
-    "version": "1.0.0",
-    "lastUpdated": "2025-11-10",
-    "client": "Tawuniya Insurance Company",
-    "tokensSource": "Figma Tokens Studio - option-tokens-default",
-    "instructions": "To modify colors: Update dataColors array and structural colors below. All visuals reference these via ThemeDataColor.",
-    "dataColorsNote": "TAWN Light 01-08 from Figma variables.json",
-    "structuralNote": "Neutral scale tokens for UI framework",
-    "sentimentNote": "Success/Error/Warning tokens at 500 level",
-    "fontNote": "Tawuniya is custom font - applied via textClasses to all visuals"
-  },
-  
   "dataColors": [
     "#6B47F5",
     "#312E52",
