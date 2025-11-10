@@ -2,23 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General Theme (Light Mode)",
 
-  "_comment": {
-    "version": "1.0.0",
-    "lastUpdated": "2025-11-10",
-    "tokensSource": "Figma Tokens Studio - option-tokens-default",
-    "structure": "Foundations → Text Classes → Visual Styles",
-    "colorStrategy": "All structural colors in dataColors array for ThemeDataColor referencing",
-    "customization": "Modify foundations section only - all visuals inherit automatically",
-    "fontNote": "Tawuniya is custom font applied via textClasses (not in Power BI dropdown)"
-  },
-
-  "_comment_foundations": {
-    "section": "═════════════════════════════════════════════════",
-    "title": "FOUNDATIONS - Core Design Tokens",
-    "description": "All colors defined in dataColors for dynamic referencing",
-    "note": "Change these values to update entire theme"
-  },
-
   "dataColors": [
     "#6B47F5",
     "#312E52",
@@ -41,33 +24,7 @@
     "#FFFBEB"
   ],
 
-  "_comment_dataColors_map": {
-    "0": "Brand 500 - Primary Purple (TAWN.Light.01)",
-    "1": "TAWN.Light.02 - Dark Purple",
-    "2": "TAWN.Light.03 - Light Purple",
-    "3": "TAWN.Light.04 - Mid Purple",
-    "4": "TAWN.Light.05 - Soft Purple",
-    "5": "TAWN.Light.06 - Pale Purple",
-    "6": "TAWN.Light.07 - Deep Purple",
-    "7": "TAWN.Light.08 - Medium Purple",
-    "8": "Neutral 900 - Primary Text",
-    "9": "Neutral 600 - Secondary Text",
-    "10": "Neutral 300 - Tertiary Text",
-    "11": "Neutral 500 - Muted Text",
-    "12": "Neutral 50 - Borders/Dividers",
-    "13": "Neutral 25 - Page Background",
-    "14": "Neutral White - Card Background",
-    "15": "Success 500 - Good/Positive",
-    "16": "Error 500 - Bad/Negative",
-    "17": "Warning 500 - Neutral/Center",
-    "18": "Warning 50 - Minimum/Light Warning"
-  },
 
-  "_comment_structural": {
-    "section": "─────────────────────────────────────────────────",
-    "title": "STRUCTURAL COLORS",
-    "strategy": "Uses ThemeDataColor ColorId to reference dataColors array"
-  },
 
   "background": "#F5F7F9",
   "foreground": "#282639",
@@ -78,11 +35,7 @@
   "fourthLevelElements": "#A2A1AA",
   "secondaryBackground": "#FFFFFF",
 
-  "_comment_sentiment": {
-    "section": "─────────────────────────────────────────────────",
-    "title": "SENTIMENT COLORS"
-  },
-
+ 
   "good": "#10B981",
   "bad": "#F43F5E",
   "neutral": "#F59E0B",
@@ -90,13 +43,7 @@
   "minimum": "#FFFBEB",
   "center": "#F59E0B",
 
-  "_comment_typography": {
-    "section": "═════════════════════════════════════════════════",
-    "title": "TYPOGRAPHY - Text Classes (Primary, Secondary, Tertiary)",
-    "note": "Tawuniya font applied here - all visuals inherit unless overridden",
-    "hierarchy": "callout > title/header > label (+ 9 secondary classes auto-inherit)"
-  },
-
+  
   "textClasses": {
     "callout": {
       "fontSize": 45,
@@ -120,13 +67,7 @@
     }
   },
 
-  "_comment_visualStyles": {
-    "section": "═════════════════════════════════════════════════",
-    "title": "VISUAL STYLES - Component Overrides",
-    "inheritance": "All visuals inherit foundations + text classes by default",
-    "colorReferencing": "Uses ThemeDataColor.ColorId to dynamically reference dataColors array"
-  },
-
+ 
   "visualStyles": {
     "*": {
       "*": {
