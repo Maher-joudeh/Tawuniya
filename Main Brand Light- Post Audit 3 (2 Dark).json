@@ -1,0 +1,1276 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
+  "name": "Tawuniya - General Theme (Dark Mode)",
+ 
+  "dataColors": [
+    "#6B47F5",
+    "#AC8CFF",
+    "#009DFF",
+    "#76CAFF",
+    "#00B383",
+    "#5ED1B1",
+    "#4E3BA4",
+    "#7F67BC"
+  ],
+
+  "background": "#161528",
+  "foreground": "#FFFFFF",
+  "secondaryBackground": "#282639",
+  "tableAccent": "#6B47F5",
+  "firstLevelElements": "#FFFFFF",
+  "secondLevelElements": "#D0CFD4",
+  "thirdLevelElements": "#4E4C5C",
+  "fourthLevelElements": "#62606F",
+ 
+  "good": "#10B981",
+  "bad": "#F43F5E",
+  "neutral": "#A2A1AA",
+  "maximum": "#896CF7",
+  "minimum": "#78350F",
+  "center": "#F59E0B",
+  
+
+  "textClasses": {
+    "callout": {
+      "fontSize": 45,
+      "fontFace": "Tawuniya",
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Tawuniya",
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Tawuniya",
+      "color": "#FFFFFF",
+      "fontWeight": "bold"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Tawuniya",
+      "color": "#D0CFD4"
+    }
+  },
+  
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "transparency": 0,
+            "_figmaToken": "Neutral.900"
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "show": true,
+            "width": 0.5,
+            "_figmaToken": "Neutral.800"
+          }
+        ],
+        "divider": [
+          {
+            "show": false,
+            "width": 1
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            },
+            "fontFamily": "Tawuniya",
+            "_figmaToken": "Neutral.100"
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "shadowBlur": 12,
+            "angle": 45,
+            "shadowDistance": 8,
+            "shadowSpread": 0,
+            "transparency": 50,
+            "position": "Outer",
+            "preset": "Custom",
+            "_figmaToken": "Pure black with 50% opacity for dark mode depth"
+          }
+        ],
+        "legend": [
+          {
+            "position": "TopCenter",
+            "showTitle": false,
+            "fontSize": 7,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            },
+            "_figmaToken": "Neutral.100"
+          }
+        ],
+        "padding": [
+          {
+            "top": 10,
+            "bottom": 10,
+            "left": 10,
+            "right": 10,
+            "_figmaToken": "Sizing.10"
+          }
+        ],
+        "spacing": [
+          {
+            "customizeSpacing": true,
+            "spaceBelowTitle": 3.5
+          }
+        ],
+        "subTitle": [
+          {
+            "show": false,
+            "fontSize": 11,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#B9B7BF"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "fontSize": 14,
+            "bold": true,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "_figmaToken": "Neutral.white"
+          }
+        ],
+        "totals": [
+          {
+            "show": true,
+            "bold": true,
+            "fontSize": 7,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineShow": true,
+            "gridlineColor": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "gridlineStyle": "dotted",
+            "gridlineThickness": 1,
+            "showAxisTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            },
+            "fontFamily": "Tawuniya",
+            "_figmaToken": "Neutral.800 (gridlines) + Neutral.100 (labels)"
+          }
+        ]
+      }
+    },
+    "actionButton": {
+      "*": {
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#4E4C5C"
+              }
+            }
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "fill": [
+          {
+            "show": true,
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "transparency": 0
+          },
+          {
+            "show": true,
+            "$id": "hover",
+            "fillColor": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "transparency": 0
+          },
+          {
+            "show": true,
+            "$id": "selected",
+            "fillColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": 75,
+            "_figmaToken": "Brand.500 at 25% opacity"
+          }
+        ],
+        "icon": [
+          {
+            "show": true,
+            "placement": "custom",
+            "$id": "hover",
+            "iconSize": 20,
+            "lineColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        ],
+        "shadow": [
+          {
+            "$id": "default",
+            "show": false
+          }
+        ],
+        "text": [
+          {
+            "show": true,
+            "$id": "default",
+            "text": "Button",
+            "horizontalAlignment": "left",
+            "verticalAlignment": "middle",
+            "fontSize": 7,
+            "fontFamily": "Tawuniya",
+            "leftMargin": 30,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "advancedSlicerVisual": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#6B47F5"
+              }
+            },
+            "show": false
+          }
+        ],
+        "layout": [
+          {
+            "style": "Cards",
+            "columnCount": 5,
+            "rowCount": 2
+          }
+        ],
+        "outline": [
+          {
+            "$id": "default",
+            "show": false
+          }
+        ],
+        "image": [
+          {
+            "$id": "selection",
+            "position": "Left",
+            "imageAreaSize": 30,
+            "saturation": 100
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "shapeCustomRectangle": [
+          {
+            "$id": "default",
+            "tileShape": "rectangleRounded",
+            "rectangleRoundedCurve": 7
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "value": [
+          {
+            "show": true,
+            "fontFamily": "Tawuniya",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "_figmaToken": "Neutral.white"
+          }
+        ]
+      }
+    },
+    "bookmarkNavigator": {
+      "*": {
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "$id": "default",
+            "show": false
+          }
+        ],
+        "fill": [
+          {
+            "$id": "default",
+            "fillColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "transparency": 0
+          },
+          {
+            "$id": "selected",
+            "fillColor": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "layout": [
+          {
+            "orientation": 2,
+            "cellPadding": 1
+          }
+        ],
+        "outline": [
+          {
+            "$id": "default",
+            "show": false,
+            "lineColor": {
+              "solid": {
+                "color": "#4E4C5C"
+              }
+            },
+            "weight": 0.5
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        ],
+        "shape": [
+          {
+            "$id": "default",
+            "rectangleRoundedCurve": 12,
+            "tileShape": "rectangleRounded"
+          }
+        ],
+        "text": [
+          {
+            "$id": "default",
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          },
+          {
+            "$id": "selected",
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "fontSize": 35,
+            "bold": true,
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cardVisual": {
+      "*": {
+        "accentBar": [
+          {
+            "$id": "default",
+            "show": true,
+            "width": 4,
+            "position": "Top",
+            "color": {
+              "solid": {
+                "color": "#6B47F5"
+              }
+            },
+            "_figmaToken": "Brand.500"
+          }
+        ],
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            }
+          }
+        ],
+        "divider": [
+          {
+            "$id": "default",
+            "show": true,
+            "dividerColor": {
+              "solid": {
+                "color": "#4E4C5C"
+              }
+            },
+            "_figmaToken": "Neutral.700"
+          }
+        ],
+        "image": [
+          {
+            "$id": "default",
+            "show": true,
+            "imageType": "imageUrl",
+            "position": "Left",
+            "padding": 10,
+            "size": 32
+          }
+        ],
+        "label": [
+          {
+            "$id": "default",
+            "position": "aboveValue",
+            "fontSize": 14,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            },
+            "_figmaToken": "Neutral.100"
+          }
+        ],
+        "layout": [
+          {
+            "calloutSize": 60,
+            "orientation": 2,
+            "style": "Cards",
+            "maxTiles": 3,
+            "cellPadding": 8
+          }
+        ],
+        "outline": [
+          {
+            "$id": "default",
+            "show": false,
+            "transparency": 0,
+            "lineColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
+          }
+        ],
+        "padding": [
+          {
+            "$id": "default",
+            "paddingSelection": "Custom",
+            "topMargin": 12,
+            "bottomMargin": 12,
+            "rightMargin": 8,
+            "leftMargin": 8,
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          }
+        ],
+        "referenceLabel": [
+          {
+            "$id": "default",
+            "backgroundShow": true,
+            "backgroundColor": {
+              "solid": {
+                "color": "#6B47F5"
+              }
+            },
+            "backgroundTransparency": 85,
+            "_figmaToken": "Brand.500 at 15% opacity (darker for dark mode)"
+          }
+        ],
+        "referenceLabelLayout": [
+          {
+            "$id": "default",
+            "outerPadding": 3
+          }
+        ],
+        "referenceLabelTitle": [
+          {
+            "$id": "default",
+            "titleFontSize": 9,
+            "titleFontFamily": "Tawuniya",
+            "titleFontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            },
+            "titleTransparency": 10
+          }
+        ],
+        "referenceLabelValue": [
+          {
+            "$id": "default",
+            "valueBold": false,
+            "valueFontSize": 9,
+            "valueFontFamily": "Tawuniya",
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "valueTransparency": 10
+          }
+        ],
+        "referenceLabelDetail": [
+          {
+            "$id": "default",
+            "detailFontSize": 9,
+            "detailFontFamily": "Tawuniya",
+            "detailFontColor": {
+              "solid": {
+                "color": "#B9B7BF"
+              }
+            },
+            "detailTransparency": 20,
+            "show": true,
+            "detailBackgroundColor": {
+              "solid": {
+                "color": "#6B47F5"
+              }
+            }
+          }
+        ],
+        "shapeCustomRectangle": [
+          {
+            "$id": "default",
+            "tileShape": "rectangleRounded",
+            "rectangleRoundedCurve": 7
+          }
+        ],
+        "spacing": [
+          {
+            "$id": "default",
+            "verticalSpacing": 0
+          }
+        ],
+        "subTitle": [
+          {
+            "show": false
+          }
+        ],
+        "shadowCustom": [
+          {
+            "show": false,
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            }
+          }
+        ],
+        "title": [
+          {
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#161528"
+              }
+            },
+            "text": "Add visual title here"
+          }
+        ],
+        "value": [
+          {
+            "$id": "default",
+            "fontSize": 32,
+            "horizontalAlignment": "left",
+            "bold": true,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "labels": [
+          {
+            "show": true,
+            "bold": true,
+            "fontSize": 7,
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "legend": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [
+          {
+            "show": false
+          }
+        ],
+        "labels": [
+          {
+            "labelStyle": "Both",
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "filledMap": {
+      "*": {
+        "mapStyles": [
+          {
+            "mapTheme": "canvasDark"
+          }
+        ]
+      }
+    },
+    "image": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#161528"
+              }
+            },
+            "transparency": 0,
+            "_figmaToken": "Neutral.Dark Navy"
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#161528"
+              }
+            },
+            "fontFamily": "Tawuniya",
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "_figmaToken": "Neutral.Dark Navy"
+          }
+        ],
+        "filterCard": [
+          {
+            "$id": "Applied",
+            "backgroundColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "inputBoxColor": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "fontFamily": "Tawuniya",
+            "transparency": 0,
+            "_figmaToken": "Neutral.900 + Neutral.800"
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "legend": [
+          {
+            "show": false
+          }
+        ],
+        "labels": [
+          {
+            "labelStyle": "Both",
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "grid": [
+          {
+            "outlineColor": {
+              "solid": {
+                "color": "#4E4C5C"
+              }
+            },
+            "outlineWeight": 2,
+            "rowPadding": 5,
+            "_figmaToken": "Neutral.700"
+          }
+        ],
+        "rowHeaders": [
+          {
+            "wordWrap": false,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "stylePreset": [
+          {
+            "name": "Minimal"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "text": "Table title",
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "fontFamily": "Tawuniya",
+            "fontSize": 8,
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Left",
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "shape": {
+      "*": {
+        "background": [
+          {
+            "show": true
+          }
+        ],
+        "fill": [
+          {
+            "show": false
+          }
+        ],
+        "outline": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "header": [
+          {
+            "show": false
+          }
+        ],
+        "items": [
+          {
+            "background": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "top": 0,
+            "left": 0,
+            "right": 0
+          }
+        ],
+        "slider": [
+          {
+            "color": {
+              "solid": {
+                "color": "#6B47F5"
+              }
+            },
+            "handleFillColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "handleBorderColor": {
+              "solid": {
+                "color": "#6B47F5"
+              }
+            },
+            "show": true,
+            "_figmaToken": "Brand.500"
+          }
+        ],
+        "date": [
+          {
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stackedAreaChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true,
+            "position": "Left",
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "show": true,
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "position": "Left",
+            "fontSize": 8,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "backColor": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "autoSizeColumnWidth": false,
+            "alignment": "Center",
+            "bold": true,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "_figmaToken": "Neutral.800 background + white text"
+          }
+        ],
+        "grid": [
+          {
+            "gridHorizontal": true,
+            "rowPadding": 3.5,
+            "outlineColor": {
+              "solid": {
+                "color": "#4E4C5C"
+              }
+            },
+            "outlineStyle": 1,
+            "outlineWeight": 0.5,
+            "_figmaToken": "Neutral.700"
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "text": "Table title",
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "values": [
+          {
+            "backColorPrimary": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#3A384A"
+              }
+            },
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            },
+            "_figmaToken": "Alternating Neutral.900 and Neutral.800"
+          }
+        ],
+        "total": [
+          {
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "padding": [
+          {
+            "bottom": 0,
+            "left": 0,
+            "right": 0,
+            "top": 0
+          }
+        ],
+        "general": [
+        ]
+      }
+    },
+    "waterfallChart": {
+      "*": {
+        "legend": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gauge": {
+      "*": {
+        "calloutValue": [
+          {
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#D0CFD4"
+              }
+            }
+          }
+        ],
+        "target": [
+          {
+            "fontFamily": "Tawuniya"
+          }
+        ]
+      }
+    }
+  }
+}
