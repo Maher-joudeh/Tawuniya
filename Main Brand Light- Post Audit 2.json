@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General Theme (Light)",
-  
+
   "dataColors": [
     "#6B47F5",
     "#312E52",
@@ -12,7 +12,7 @@
     "#5C57A2",
     "#7F67BC"
   ],
-  
+
   "background": "#F5F7F9",
   "foreground": "#282639",
   "secondaryBackground": "#FFFFFF",
@@ -21,14 +21,14 @@
   "secondLevelElements": "#62606F",
   "thirdLevelElements": "#E7E7E9",
   "fourthLevelElements": "#A2A1AA",
-  
+
   "good": "#10B981",
   "bad": "#F43F5E",
   "neutral": "#777582",
   "maximum": "#6B47F5",
   "minimum": "#FFFBEB",
   "center": "#F59E0B",
-  
+
   "textClasses": {
     "callout": {
       "fontSize": 45,
@@ -93,7 +93,7 @@
       "fontWeight": "bold"
     }
   },
-  
+
   "visualStyles": {
     "*": {
       "*": {
