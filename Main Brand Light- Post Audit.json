@@ -2,42 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General Theme (Light Mode)",
   
-  "_comment": {
-    "version": "1.0.0",
-    "lastUpdated": "2025-11-10",
-    "client": "Tawuniya Insurance",
-    "tokensSource": "Figma Tokens Studio - option-tokens-default mode",
-    "dataColorsNote": "TAWN Light 01-08 palette for data visualization",
-    "structuralNote": "Neutral scale (25-900) for UI framework elements",
-    "sentimentNote": "Success/Error/Warning 500 values for status indicators",
-    "typographyNote": "Tawuniya font family (Secondary token) as primary typeface"
-  },
-  
-  "_tokenMapping": {
-    "dataColors[0]": "TAWN.Light.01 = #6B47F5",
-    "dataColors[1]": "TAWN.Light.03 = #8780F2",
-    "dataColors[2]": "TAWN.Light.04 = #9073F2",
-    "dataColors[3]": "TAWN.Light.05 = #A8A9CF",
-    "dataColors[4]": "TAWN.Light.06 = #D6D1ED",
-    "dataColors[5]": "TAWN.Light.07 = #5C57A2",
-    "dataColors[6]": "TAWN.Light.08 = #7F67BC",
-    "dataColors[7]": "TAWN.Light.02 = #312E52",
-    "background": "Neutral.25 = #F5F7F9",
-    "foreground": "Neutral.900 = #282639",
-    "secondaryBackground": "Neutral.white = #FFFFFF",
-    "tableAccent": "Brand.500 = #6B47F5",
-    "firstLevelElements": "Neutral.900 = #282639",
-    "secondLevelElements": "Neutral.600 = #62606F",
-    "thirdLevelElements": "Neutral.50 = #E7E7E9",
-    "fourthLevelElements": "Neutral.300 = #A2A1AA",
-    "good": "Success.500 = #10B981",
-    "bad": "Error.500 = #F43F5E",
-    "neutral": "Neutral.500 = #777582",
-    "maximum": "Brand.500 = #6B47F5",
-    "minimum": "Warning.50 = #FFFBEB",
-    "center": "Warning.500 = #F59E0B"
-  },
-  
   "dataColors": [
     "#6B47F5",
     "#8780F2",
