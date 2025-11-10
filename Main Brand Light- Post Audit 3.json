@@ -2,7 +2,39 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - Modular Theme (Light Mode)",
 
-  
+  "_comment_metadata": {
+    "version": "2.0.0 - Modular Architecture",
+    "lastUpdated": "2025-11-10",
+    "instructions": "MODIFY ONLY THE dataColors ARRAY. All visual styles reference these colors dynamically using ColorId.",
+    "architecture": "ColorId 0-7 = Data visualization | ColorId 8-18 = Structural/UI colors"
+  },
+
+  "_colorMap": {
+    "0": "Data Color 1 | Alias: Data Colors.category-1 | Option Token: Color.TAWN.Light.01 | #6B47F5",
+    "1": "Data Color 2 | Alias: Data Colors.category-2 | Option Token: Color.TAWN.Light.02 | #AC8CFF",
+    "2": "Data Color 3 | Alias: Data Colors.category-3 | Option Token: Color.TAWN.Light.03 | #009DFF",
+    "3": "Data Color 4 | Alias: Data Colors.category-4 | Option Token: Color.TAWN.Light.04 | #76CAFF",
+    "4": "Data Color 5 | Alias: Data Colors.category-5 | Option Token: Color.TAWN.Light.05 | #00B383",
+    "5": "Data Color 6 | Alias: Data Colors.category-6 | Option Token: Color.TAWN.Light.06 | #5ED1B1",
+    "6": "Data Color 7 | Alias: Data Colors.category-7 | Option Token: Color.TAWN.Light.07 | #5C57A2",
+    "7": "Data Color 8 | Alias: Data Colors.category-8 | Option Token: Color.TAWN.Light.08 | #7F67BC",
+    "8": "Structural | Alias: Background.secondary | Option Token: Color.Neutral.25 | #F5F7F9",
+    "9": "Structural | Alias: Background.primary | Option Token: Color.Neutral.white | #FFFFFF",
+    "10": "Structural | Alias: Text.primary | Option Token: Color.Neutral.900 | #282639",
+    "11": "Structural | Alias: Text.secondary | Option Token: Color.Neutral.700 | #D0CFD4",
+    "12": "Structural | Alias: Border.tertiary | Option Token: Color.Neutral.100 | #E7E7E9",
+    "13": "Structural | Alias: Border.secondary | Option Token: Color.Neutral.200 | #D0CFD4",
+    "14": "Structural | Alias: Text.tertiary | Option Token: Color.Neutral.600 | #62606F",
+    "15": "Sentiment | Alias: Text.success | Option Token: Color.Success.700 | #10B981",
+    "16": "Sentiment | Alias: Text.error | Option Token: Color.Error.700 | #F43F5E",
+    "17": "Sentiment | Alias: Text.warning | Option Token: Color.Warning.700 | #F59E0B",
+    "18": "Sentiment | Alias: Text.disabled | Option Token: Color.Neutral.400 | #777582"
+  },
+
+  "_comment_foundations_start": "═══════════════════════════════════════════════════════════════",
+  "_comment_foundations": "🎨 CENTRAL COLOR PALETTE - Modify here to change entire theme",
+  "_comment_foundations_end": "═══════════════════════════════════════════════════════════════",
+
   "dataColors": [
     "#6B47F5",
     "#AC8CFF",
@@ -24,7 +56,7 @@
     "#F59E0B",
     "#777582"
   ],
-  
+
   "textClasses": {
     "callout": {
       "fontSize": 45,
@@ -48,7 +80,7 @@
       "color": "#282639"
     }
   },
-  
+
   "visualStyles": {
     "*": {
       "*": {
@@ -59,7 +91,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 10,
                       "Percent": 0
                     }
                   }
@@ -251,7 +283,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 10,
                       "Percent": 0
                     }
                   }
@@ -517,7 +549,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 10,
                       "Percent": 0
                     }
                   }
@@ -593,7 +625,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 10,
                       "Percent": 0
                     }
                   }
@@ -665,7 +697,7 @@
                 }
               }
             },
-            "_colorRef": "ColorId 12 | Alias: Border.tertiary | Option Token: Color.Neutral.100"
+            "_colorRef": "ColorId 12 | Alias: Border.tertiary | Base: Color.Neutral.100"
           }
         ],
         "values": [
@@ -675,7 +707,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 9,
+                      "ColorId": 10,
                       "Percent": 0
                     }
                   }
