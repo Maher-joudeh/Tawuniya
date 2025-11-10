@@ -1,40 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - Modular Theme (Light Mode)",
-
-  "_comment_metadata": {
-    "version": "2.0.0 - Modular Architecture",
-    "lastUpdated": "2025-11-10",
-    "instructions": "MODIFY ONLY THE dataColors ARRAY. All visual styles reference these colors dynamically using ColorId.",
-    "architecture": "ColorId 0-7 = Data visualization | ColorId 8-18 = Structural/UI colors"
-  },
-
-  "_colorMap": {
-    "0": "Data Color 1 | Alias: Data Colors.category-1 | Option Token: Color.TAWN.Light.01 | #6B47F5",
-    "1": "Data Color 2 | Alias: Data Colors.category-2 | Option Token: Color.TAWN.Light.02 | #AC8CFF",
-    "2": "Data Color 3 | Alias: Data Colors.category-3 | Option Token: Color.TAWN.Light.03 | #009DFF",
-    "3": "Data Color 4 | Alias: Data Colors.category-4 | Option Token: Color.TAWN.Light.04 | #76CAFF",
-    "4": "Data Color 5 | Alias: Data Colors.category-5 | Option Token: Color.TAWN.Light.05 | #00B383",
-    "5": "Data Color 6 | Alias: Data Colors.category-6 | Option Token: Color.TAWN.Light.06 | #5ED1B1",
-    "6": "Data Color 7 | Alias: Data Colors.category-7 | Option Token: Color.TAWN.Light.07 | #5C57A2",
-    "7": "Data Color 8 | Alias: Data Colors.category-8 | Option Token: Color.TAWN.Light.08 | #7F67BC",
-    "8": "Structural | Alias: Background.secondary | Option Token: Color.Neutral.25 | #F5F7F9",
-    "9": "Structural | Alias: Background.primary | Option Token: Color.Neutral.white | #FFFFFF",
-    "10": "Structural | Alias: Text.primary | Option Token: Color.Neutral.900 | #282639",
-    "11": "Structural | Alias: Text.secondary | Option Token: Color.Neutral.700 | #D0CFD4",
-    "12": "Structural | Alias: Border.tertiary | Option Token: Color.Neutral.100 | #E7E7E9",
-    "13": "Structural | Alias: Border.secondary | Option Token: Color.Neutral.200 | #D0CFD4",
-    "14": "Structural | Alias: Text.tertiary | Option Token: Color.Neutral.600 | #62606F",
-    "15": "Sentiment | Alias: Text.success | Option Token: Color.Success.700 | #10B981",
-    "16": "Sentiment | Alias: Text.error | Option Token: Color.Error.700 | #F43F5E",
-    "17": "Sentiment | Alias: Text.warning | Option Token: Color.Warning.700 | #F59E0B",
-    "18": "Sentiment | Alias: Text.disabled | Option Token: Color.Neutral.400 | #777582"
-  },
-
-  "_comment_foundations_start": "═══════════════════════════════════════════════════════════════",
-  "_comment_foundations": "🎨 CENTRAL COLOR PALETTE - Modify here to change entire theme",
-  "_comment_foundations_end": "═══════════════════════════════════════════════════════════════",
-
+  
   "dataColors": [
     "#6B47F5",
     "#AC8CFF",
@@ -56,7 +23,23 @@
     "#F59E0B",
     "#777582"
   ],
-
+  
+  "background": "#F5F7F9",
+  "foreground": "#282639",
+  "secondaryBackground": "#FFFFFF",
+  "tableAccent": "#6B47F5",
+  "firstLevelElements": "#282639",
+  "secondLevelElements": "#62606F",
+  "thirdLevelElements": "#E7E7E9",
+  "fourthLevelElements": "#A2A1AA",
+  
+  "good": "#10B981",
+  "bad": "#F43F5E",
+  "neutral": "#777582",
+  "maximum": "#6B47F5",
+  "minimum": "#FFFBEB",
+  "center": "#F59E0B",
+  
   "textClasses": {
     "callout": {
       "fontSize": 45,
@@ -80,7 +63,8 @@
       "color": "#282639"
     }
   },
-
+  
+ 
   "visualStyles": {
     "*": {
       "*": {
@@ -91,7 +75,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 10,
+                      "ColorId": 9,
                       "Percent": 0
                     }
                   }
@@ -99,7 +83,7 @@
               }
             },
             "transparency": 0,
-            "_colorRef": "ColorId 9 | Alias: Background.primary | Option Token: Color.Neutral.white"
+            "_colorRef": "ColorId 9 = Visual Background (white)"
           }
         ],
         "border": [
@@ -118,7 +102,13 @@
             },
             "show": true,
             "width": 0.5,
-            "_colorRef": "ColorId 12 | Alias: Border.tertiary | Option Token: Color.Neutral.100"
+            "_colorRef": "ColorId 12 = Borders (Neutral.50)"
+          }
+        ],
+        "divider": [
+          {
+            "show": false,
+            "width": 1
           }
         ],
         "categoryAxis": [
@@ -137,7 +127,7 @@
               }
             },
             "fontFamily": "Tawuniya",
-            "_colorRef": "ColorId 14 | Alias: Text.tertiary | Option Token: Color.Neutral.600"
+            "_colorRef": "ColorId 14 = Secondary text"
           }
         ],
         "dropShadow": [
@@ -159,7 +149,7 @@
             "angle": 45,
             "shadowDistance": 7,
             "transparency": 70,
-            "_colorRef": "ColorId 10 at -70% | Alias: Text.primary (darkened) | Option Token: Color.Neutral.900"
+            "_colorRef": "ColorId 10 at -70% = Very dark shadow"
           }
         ],
         "legend": [
@@ -180,7 +170,7 @@
                 }
               }
             },
-            "_colorRef": "ColorId 14 | Alias: Text.tertiary | Option Token: Color.Neutral.600"
+            "_colorRef": "ColorId 14 = Secondary text"
           }
         ],
         "padding": [
@@ -188,14 +178,20 @@
             "top": 10,
             "bottom": 10,
             "left": 10,
-            "right": 10,
-            "_sizingToken": "Sizing.10"
+            "right": 10
           }
         ],
         "spacing": [
           {
             "customizeSpacing": true,
             "spaceBelowTitle": 3.5
+          }
+        ],
+        "subTitle": [
+          {
+            "show": false,
+            "fontSize": 11,
+            "fontFamily": "Tawuniya"
           }
         ],
         "title": [
@@ -215,7 +211,15 @@
                 }
               }
             },
-            "_colorRef": "ColorId 10 | Alias: Text.primary | Option Token: Color.Neutral.900"
+            "_colorRef": "ColorId 10 = Primary text"
+          }
+        ],
+        "totals": [
+          {
+            "show": true,
+            "bold": true,
+            "fontSize": 7,
+            "fontFamily": "Tawuniya"
           }
         ],
         "valueAxis": [
@@ -249,7 +253,7 @@
               }
             },
             "fontFamily": "Tawuniya",
-            "_colorRef": "Gridlines: ColorId 13 | Alias: Border.secondary | Labels: ColorId 14 | Alias: Text.tertiary"
+            "_colorRef": "ColorId 13 = Gridlines, ColorId 14 = Labels"
           }
         ]
       }
@@ -270,8 +274,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "ColorId 12 | Alias: Border.tertiary | Option Token: Color.Neutral.100"
+            }
           }
         ],
         "fill": [
@@ -283,15 +286,14 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 10,
+                      "ColorId": 9,
                       "Percent": 0
                     }
                   }
                 }
               }
             },
-            "transparency": 0,
-            "_colorRef": "ColorId 9 | Alias: Background.primary | Option Token: Color.Neutral.white"
+            "transparency": 0
           },
           {
             "show": true,
@@ -309,7 +311,7 @@
               }
             },
             "transparency": 75,
-            "_colorRef": "ColorId 0 at 25% opacity | Alias: Data Colors.category-1 (Brand primary) | Option Token: Color.Brand.500"
+            "_colorRef": "ColorId 0 = Primary brand color at 25% opacity"
           }
         ],
         "text": [
@@ -330,8 +332,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "ColorId 10 | Alias: Text.primary | Option Token: Color.Neutral.900"
+            }
           }
         ]
       }
@@ -356,7 +357,7 @@
                 }
               }
             },
-            "_colorRef": "ColorId 0 | Alias: Text.brand-solid | Option Token: Color.Brand.500"
+            "_colorRef": "ColorId 0 = Primary brand color"
           }
         ],
         "border": [
@@ -373,8 +374,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "ColorId 12 | Alias: Border.tertiary | Option Token: Color.Neutral.100"
+            }
           }
         ],
         "divider": [
@@ -393,7 +393,7 @@
                 }
               }
             },
-            "_colorRef": "ColorId 13 | Alias: Border.secondary | Option Token: Color.Neutral.200"
+            "_colorRef": "ColorId 13 = Divider color"
           }
         ],
         "label": [
@@ -407,14 +407,14 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 11,
+                      "ColorId": 14,
                       "Percent": 0
                     }
                   }
                 }
               }
             },
-            "_colorRef": "ColorId 11 | Alias: Text.secondary | Option Token: Color.Neutral.700"
+            "_colorRef": "ColorId 14 = Secondary text"
           }
         ],
         "referenceLabel": [
@@ -434,7 +434,7 @@
               }
             },
             "backgroundTransparency": 92.5,
-            "_colorRef": "ColorId 0 at 7.5% | Alias: Background.brand (light tint) | Option Token: Color.Brand.50"
+            "_colorRef": "ColorId 0 at 7.5% opacity"
           }
         ],
         "title": [
@@ -465,7 +465,7 @@
                 }
               }
             },
-            "_colorRef": "Text: ColorId 10 | Alias: Text.primary | Bg: ColorId 8 | Alias: Background.secondary"
+            "_colorRef": "ColorId 8 = Canvas background"
           }
         ],
         "value": [
@@ -485,8 +485,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "ColorId 10 | Alias: Text.primary | Option Token: Color.Neutral.900"
+            }
           }
         ]
       }
@@ -508,7 +507,7 @@
               }
             },
             "transparency": 0,
-            "_colorRef": "ColorId 8 | Alias: Background.secondary | Option Token: Color.Neutral.25"
+            "_colorRef": "ColorId 8 = Page canvas background"
           }
         ],
         "outspacePane": [
@@ -537,8 +536,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "Bg: ColorId 8 | Alias: Background.secondary | Text: ColorId 10 | Alias: Text.primary"
+            }
           }
         ],
         "filterCard": [
@@ -549,7 +547,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 10,
+                      "ColorId": 9,
                       "Percent": 0
                     }
                   }
@@ -568,8 +566,7 @@
                 }
               }
             },
-            "fontFamily": "Tawuniya",
-            "_colorRef": "Bg: ColorId 9 | Alias: Background.primary | Text: ColorId 10 | Alias: Text.primary"
+            "fontFamily": "Tawuniya"
           }
         ]
       }
@@ -602,8 +599,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "Bg: ColorId 8 | Alias: Background.secondary | Text: ColorId 10 | Alias: Text.primary"
+            }
           }
         ],
         "slider": [
@@ -625,7 +621,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 10,
+                      "ColorId": 9,
                       "Percent": 0
                     }
                   }
@@ -643,8 +639,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "Track: ColorId 0 | Alias: Text.brand-solid | Handle: ColorId 9 + ColorId 0 border"
+            }
           }
         ]
       }
@@ -678,7 +673,7 @@
                 }
               }
             },
-            "_colorRef": "Bg: ColorId 0 at 90% lightness | Alias: Background.brand | Option Token: Color.Brand.50 | Text: ColorId 10 | Alias: Text.primary"
+            "_colorRef": "ColorId 0 at 90% lightness (Brand.50)"
           }
         ],
         "grid": [
@@ -696,8 +691,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "ColorId 12 | Alias: Border.tertiary | Base: Color.Neutral.100"
+            }
           }
         ],
         "values": [
@@ -707,7 +701,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 10,
+                      "ColorId": 9,
                       "Percent": 0
                     }
                   }
@@ -726,8 +720,7 @@
                   }
                 }
               }
-            },
-            "_colorRef": "Bg: ColorId 9 | Alias: Background.primary | Text: ColorId 10 | Alias: Text.primary"
+            }
           }
         ]
       }
