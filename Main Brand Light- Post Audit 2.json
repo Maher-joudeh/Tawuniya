@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General (Light Mode)",
-  
+ 
   "dataColors": [
     "#6B47F5",
     "#312E52",
@@ -13,10 +13,10 @@
     "#7F67BC",
     "#FFFFFF",
     "#F5F7F9",
+    "#E7E7E9",
     "#161528",
     "#4E4C5C",
-    "#A2A1AA",
-    "#B9B7BF"
+    "#A2A1AA"
   ],
   
   "background": "#F5F7F9",
@@ -25,8 +25,8 @@
   "tableAccent": "#6B47F5",
   "firstLevelElements": "#161528",
   "secondLevelElements": "#4E4C5C",
-  "thirdLevelElements": "#B9B7BF",
-  "fourthLevelElements": "#A2A1AA",
+  "thirdLevelElements": "#A2A1AA",
+  "fourthLevelElements": "#B9B7BF",
   
   "good": "#047857",
   "bad": "#BE123C",
@@ -148,7 +148,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 11,
+                    "ColorId": 12,
                     "Percent": 0
                   }
                 }
@@ -163,7 +163,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -188,7 +188,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 11,
+                    "ColorId": 12,
                     "Percent": 0
                   }
                 }
@@ -220,7 +220,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -256,7 +256,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 11,
+                    "ColorId": 12,
                     "Percent": 0
                   }
                 }
@@ -266,6 +266,7 @@
         }]
       }
     },
+    
     "actionButton": {
       "*": {
         "border": [{
@@ -352,7 +353,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -362,6 +363,7 @@
         }]
       }
     },
+    
     "card": {
       "*": {
         "labels": [{
@@ -373,7 +375,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -383,6 +385,7 @@
         }]
       }
     },
+    
     "cardVisual": {
       "*": {
         "accentBar": [{
@@ -447,7 +450,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 11,
+                    "ColorId": 12,
                     "Percent": 0
                   }
                 }
@@ -504,7 +507,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -522,7 +525,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -532,6 +535,7 @@
         }]
       }
     },
+    
     "clusteredColumnChart": {
       "*": {
         "labels": [{
@@ -544,7 +548,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -554,6 +558,7 @@
         }]
       }
     },
+    
     "columnChart": {
       "*": {
         "legend": [{
@@ -561,6 +566,7 @@
         }]
       }
     },
+    
     "donutChart": {
       "*": {
         "legend": [{
@@ -573,6 +579,7 @@
         }]
       }
     },
+    
     "pieChart": {
       "*": {
         "legend": [{
@@ -585,6 +592,7 @@
         }]
       }
     },
+    
     "page": {
       "*": {
         "background": [{
@@ -636,7 +644,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -648,6 +656,7 @@
         }]
       }
     },
+    
     "slicer": {
       "*": {
         "background": [{
@@ -666,7 +675,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -703,6 +712,7 @@
         }]
       }
     },
+    
     "tableEx": {
       "*": {
         "columnHeaders": [{
@@ -723,7 +733,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -768,7 +778,7 @@
               "color": {
                 "expr": {
                   "ThemeDataColor": {
-                    "ColorId": 10,
+                    "ColorId": 11,
                     "Percent": 0
                   }
                 }
@@ -802,6 +812,7 @@
         }]
       }
     },
+    
     "textbox": {
       "*": {
         "background": [{
@@ -821,6 +832,7 @@
         }]
       }
     },
+    
     "shape": {
       "*": {
         "background": [{
@@ -830,20 +842,6 @@
           "show": false
         }],
         "outline": [{
-          "show": false
-        }]
-      }
-    },
-    "gauge": {
-      "*": {
-        "calloutValue": [{
-          "fontFamily": "Tawuniya"
-        }]
-      }
-    },
-    "waterfallChart": {
-      "*": {
-        "legend": [{
           "show": false
         }]
       }
