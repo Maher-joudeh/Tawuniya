@@ -2,15 +2,28 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.138.json",
   "name": "Tawuniya - General Theme (Light Mode)",
   
+  "_comment": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-11-10",
+    "tokensSource": "Figma Tokens Studio - option-tokens-default",
+    "structure": "1. Foundations (dataColors, structural, sentiment) | 2. Typography (12 text classes) | 3. Visual Styles (inherits from foundations)",
+    "dataColorsMap": "TAWN.Light.01-08",
+    "structuralMap": "Neutral scale (25, 50, 300, 600, 900, white)",
+    "sentimentMap": "Success/Error/Warning/Brand 500 + Warning.50",
+    "typographyMap": "Font.Family.Secondary (Tawuniya)",
+    "colorIdStrategy": "Most visuals use ThemeDataColor expressions to reference dataColors array by index",
+    "editingGuide": "Change colors in dataColors array and structural colors section - most visuals will auto-update via ColorId references"
+  },
+  
   "dataColors": [
     "#6B47F5",
+    "#312E52",
     "#8780F2",
     "#9073F2",
     "#A8A9CF",
     "#D6D1ED",
     "#5C57A2",
-    "#7F67BC",
-    "#312E52"
+    "#7F67BC"
   ],
   
   "background": "#F5F7F9",
@@ -32,24 +45,63 @@
   "textClasses": {
     "callout": {
       "fontSize": 45,
-      "color": "#282639",
-      "fontFace": "Tawuniya"
+      "fontFace": "Tawuniya",
+      "color": "#282639"
     },
     "title": {
       "fontSize": 12,
-      "color": "#282639",
-      "fontFace": "Tawuniya"
+      "fontFace": "Tawuniya",
+      "color": "#282639"
     },
     "header": {
       "fontSize": 12,
-      "color": "#282639",
       "fontFace": "Tawuniya",
-      "fontWeight": "bold"
+      "color": "#282639"
     },
     "label": {
       "fontSize": 10,
-      "color": "#282639",
-      "fontFace": "Tawuniya"
+      "fontFace": "Tawuniya",
+      "color": "#282639"
+    },
+    "largeTitle": {
+      "fontSize": 14,
+      "fontFace": "Tawuniya",
+      "color": "#282639"
+    },
+    "semiboldLabel": {
+      "fontSize": 10,
+      "fontFace": "Tawuniya",
+      "color": "#282639"
+    },
+    "largeLabel": {
+      "fontSize": 12,
+      "fontFace": "Tawuniya",
+      "color": "#282639"
+    },
+    "smallLabel": {
+      "fontSize": 9,
+      "fontFace": "Tawuniya",
+      "color": "#282639"
+    },
+    "lightLabel": {
+      "fontSize": 10,
+      "fontFace": "Tawuniya",
+      "color": "#62606F"
+    },
+    "boldLabel": {
+      "fontSize": 10,
+      "fontFace": "Tawuniya",
+      "color": "#282639"
+    },
+    "largeLightLabel": {
+      "fontSize": 12,
+      "fontFace": "Tawuniya",
+      "color": "#62606F"
+    },
+    "smallLightLabel": {
+      "fontSize": 9,
+      "fontFace": "Tawuniya",
+      "color": "#62606F"
     }
   },
   
@@ -93,7 +145,7 @@
             "show": false,
             "color": {
               "solid": {
-                "color": "#161528"
+                "color": "#282639"
               }
             },
             "shadowBlur": 8,
@@ -109,15 +161,16 @@
           {
             "position": "TopCenter",
             "showTitle": false,
-            "fontSize": 7
+            "fontSize": 9,
+            "fontFamily": "Tawuniya"
           }
         ],
         "padding": [
           {
-            "top": 10,
-            "bottom": 10,
-            "left": 10,
-            "right": 10
+            "top": 12,
+            "bottom": 12,
+            "left": 12,
+            "right": 12
           }
         ],
         "spacing": [
@@ -129,20 +182,28 @@
         "subTitle": [
           {
             "show": false,
-            "fontSize": 11
+            "fontSize": 11,
+            "fontFamily": "Tawuniya"
           }
         ],
         "title": [
           {
             "fontSize": 14,
-            "bold": true
+            "bold": true,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ],
         "totals": [
           {
             "show": true,
             "bold": true,
-            "fontSize": 7
+            "fontSize": 9,
+            "fontFamily": "Tawuniya"
           }
         ],
         "valueAxis": [
@@ -150,12 +211,25 @@
             "gridlineShow": true,
             "gridlineColor": {
               "solid": {
-                "color": "#E7E7E9"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.6
+                    }
+                  }
+                }
               }
             },
             "gridlineStyle": "dotted",
             "gridlineThickness": 1,
-            "showAxisTitle": false
+            "showAxisTitle": false,
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            },
+            "fontFamily": "Tawuniya"
           }
         ]
       }
@@ -164,7 +238,19 @@
       "*": {
         "border": [
           {
-            "show": true
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
           }
         ],
         "dropShadow": [
@@ -181,7 +267,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 2,
+                      "ColorId": 0,
                       "Percent": 0
                     }
                   }
@@ -215,12 +301,7 @@
         "shadow": [
           {
             "$id": "default",
-            "show": false,
-            "shadowPositionPreset": "custom",
-            "shadowBlur": 0,
-            "shadowDistance": 18,
-            "angle": 90,
-            "transparency": 82
+            "show": false
           }
         ],
         "text": [
@@ -230,8 +311,14 @@
             "text": "Button",
             "horizontalAlignment": "left",
             "verticalAlignment": "middle",
-            "fontSize": 7,
-            "leftMargin": 30
+            "fontSize": 9,
+            "leftMargin": 30,
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ]
       }
@@ -346,13 +433,7 @@
         "outline": [
           {
             "$id": "default",
-            "show": false,
-            "lineColor": {
-              "solid": {
-                "color": "#62606F"
-              }
-            },
-            "weight": 0.5
+            "show": false
           }
         ],
         "padding": [
@@ -366,14 +447,15 @@
         "shape": [
           {
             "$id": "default",
-            "rectangleRoundedCurve": 12,
+            "rectangleRoundedCurve": 7,
             "tileShape": "rectangleRounded"
           }
         ],
         "text": [
           {
             "$id": "selected",
-            "fontSize": 8,
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
             "fontColor": {
               "solid": {
                 "color": "#282639"
@@ -388,7 +470,13 @@
         "labels": [
           {
             "fontSize": 35,
-            "bold": true
+            "bold": true,
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ]
       }
@@ -403,7 +491,14 @@
             "position": "Top",
             "color": {
               "solid": {
-                "color": "#6B47F5"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             }
           }
@@ -415,7 +510,12 @@
         ],
         "border": [
           {
-            "show": true
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#E7E7E9"
+              }
+            }
           }
         ],
         "divider": [
@@ -424,7 +524,7 @@
             "show": true,
             "dividerColor": {
               "solid": {
-                "color": "#D0CFD4"
+                "color": "#E7E7E9"
               }
             }
           }
@@ -444,7 +544,12 @@
             "$id": "default",
             "position": "aboveValue",
             "fontSize": 14,
-            "fontFamily": "Tawuniya"
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ],
         "layout": [
@@ -459,13 +564,7 @@
         "outline": [
           {
             "$id": "default",
-            "show": false,
-            "transparency": 0,
-            "lineColor": {
-              "solid": {
-                "color": "#6B47F5"
-              }
-            }
+            "show": false
           }
         ],
         "padding": [
@@ -475,11 +574,7 @@
             "topMargin": 12,
             "bottomMargin": 12,
             "rightMargin": 8,
-            "leftMargin": 8,
-            "left": 0,
-            "top": 0,
-            "right": 0,
-            "bottom": 0
+            "leftMargin": 8
           }
         ],
         "referenceLabel": [
@@ -488,7 +583,14 @@
             "backgroundShow": true,
             "backgroundColor": {
               "solid": {
-                "color": "#6B47F5"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             },
             "backgroundTransparency": 92.5
@@ -504,7 +606,8 @@
           {
             "$id": "default",
             "titleFontSize": 9,
-            "titleTransparency": 10
+            "titleTransparency": 10,
+            "titleFontFamily": "Tawuniya"
           }
         ],
         "referenceLabelValue": [
@@ -512,7 +615,8 @@
             "$id": "default",
             "valueBold": false,
             "valueFontSize": 9,
-            "valueTransparency": 10
+            "valueTransparency": 10,
+            "valueFontFamily": "Tawuniya"
           }
         ],
         "referenceLabelDetail": [
@@ -521,11 +625,7 @@
             "detailFontSize": 9,
             "detailTransparency": 90,
             "show": true,
-            "detailBackgroundColor": {
-              "solid": {
-                "color": "#6B47F5"
-              }
-            }
+            "detailFontFamily": "Tawuniya"
           }
         ],
         "shapeCustomRectangle": [
@@ -548,24 +648,18 @@
         ],
         "shadowCustom": [
           {
-            "show": false,
-            "color": {
-              "solid": {
-                "color": "#282639"
-              }
-            }
+            "show": false
           }
         ],
         "title": [
           {
             "fontSize": 9,
-            "background": {
+            "fontFamily": "Tawuniya",
+            "fontColor": {
               "solid": {
-                "color": "#F5F7F9"
+                "color": "#282639"
               }
-            },
-            "text": "Add visual title here",
-            "fontFamily": "Tawuniya"
+            }
           }
         ],
         "value": [
@@ -574,7 +668,12 @@
             "fontSize": 32,
             "horizontalAlignment": "left",
             "bold": true,
-            "fontFamily": "Tawuniya"
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ]
       }
@@ -585,7 +684,33 @@
           {
             "show": true,
             "bold": true,
-            "fontSize": 7
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
+          }
+        ],
+        "categoryAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ]
       }
@@ -595,6 +720,26 @@
         "legend": [
           {
             "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ]
       }
@@ -608,7 +753,13 @@
         ],
         "labels": [
           {
-            "labelStyle": "Both"
+            "labelStyle": "Both",
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ]
       }
@@ -618,6 +769,30 @@
         "mapStyles": [
           {
             "mapTheme": "grayscale"
+          }
+        ]
+      }
+    },
+    "gauge": {
+      "*": {
+        "calloutValue": [
+          {
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ]
       }
@@ -659,6 +834,12 @@
               "solid": {
                 "color": "#F5F7F9"
               }
+            },
+            "fontFamily": "Tawuniya",
+            "foregroundColor": {
+              "solid": {
+                "color": "#282639"
+              }
             }
           }
         ],
@@ -680,7 +861,8 @@
                 "color": "#FFFFFF"
               }
             },
-            "transparency": 0
+            "transparency": 0,
+            "fontFamily": "Tawuniya"
           }
         ]
       }
@@ -694,7 +876,13 @@
         ],
         "labels": [
           {
-            "labelStyle": "Both"
+            "labelStyle": "Both",
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ]
       }
@@ -705,16 +893,34 @@
           {
             "outlineColor": {
               "solid": {
-                "color": "#6B47F5"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.8
+                    }
+                  }
+                }
               }
             },
-            "outlineWeight": 2,
+            "outlineWeight": 1,
             "rowPadding": 5
           }
         ],
         "rowHeaders": [
           {
-            "wordWrap": false
+            "wordWrap": false,
+            "fontFamily": "Tawuniya"
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "Tawuniya"
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "Tawuniya"
           }
         ],
         "stylePreset": [
@@ -725,7 +931,8 @@
         "title": [
           {
             "show": true,
-            "text": "Table title"
+            "text": "Table title",
+            "fontFamily": "Tawuniya"
           }
         ]
       }
@@ -736,21 +943,33 @@
           {
             "show": true,
             "position": "Left",
-            "fontFamily": "Arial",
-            "fontSize": 8
+            "fontFamily": "Tawuniya",
+            "fontSize": 9
           }
         ],
         "categoryAxis": [
           {
             "show": true,
-            "fontSize": 8
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ],
         "valueAxis": [
           {
             "show": true,
             "position": "Left",
-            "fontSize": 8
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ]
       }
@@ -797,7 +1016,13 @@
               "solid": {
                 "color": "#F5F7F9"
               }
-            }
+            },
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            },
+            "fontFamily": "Tawuniya"
           }
         ],
         "padding": [
@@ -812,17 +1037,14 @@
           {
             "color": {
               "solid": {
-                "color": "#6B47F5"
-              }
-            },
-            "handleFillColor": {
-              "solid": {
-                "color": "#FFFFFF"
-              }
-            },
-            "handleBorderColor": {
-              "solid": {
-                "color": "#6B47F5"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
               }
             },
             "show": true
@@ -841,20 +1063,33 @@
           {
             "show": true,
             "position": "Left",
-            "fontSize": 8
+            "fontSize": 9,
+            "fontFamily": "Tawuniya"
           }
         ],
         "categoryAxis": [
           {
             "show": true,
-            "fontSize": 8
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ],
         "valueAxis": [
           {
             "show": true,
             "position": "Left",
-            "fontSize": 8
+            "fontSize": 9,
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ]
       }
@@ -865,13 +1100,25 @@
           {
             "backColor": {
               "solid": {
-                "color": "#F0EDFE"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.9
+                    }
+                  }
+                }
               }
             },
             "autoSizeColumnWidth": false,
             "alignment": "Center",
             "bold": true,
-            "fontFamily": "Tawuniya"
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ],
         "grid": [
@@ -880,7 +1127,14 @@
             "rowPadding": 3.5,
             "outlineColor": {
               "solid": {
-                "color": "#6B47F5"
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.8
+                    }
+                  }
+                }
               }
             },
             "outlineStyle": 1,
@@ -891,7 +1145,12 @@
           {
             "show": true,
             "text": "Table title",
-            "fontFamily": "Tawuniya"
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
           }
         ],
         "values": [
@@ -900,7 +1159,18 @@
               "solid": {
                 "color": "#FFFFFF"
               }
+            },
+            "fontFamily": "Tawuniya",
+            "fontColor": {
+              "solid": {
+                "color": "#282639"
+              }
             }
+          }
+        ],
+        "total": [
+          {
+            "fontFamily": "Tawuniya"
           }
         ]
       }
@@ -929,6 +1199,16 @@
             "right": 0,
             "top": 0
           }
+        ],
+        "text": [
+          {
+            "fontFamily": "Tawuniya",
+            "color": {
+              "solid": {
+                "color": "#282639"
+              }
+            }
+          }
         ]
       }
     },
@@ -938,14 +1218,25 @@
           {
             "show": false
           }
-        ]
-      }
-    },
-    "gauge": {
-      "*": {
-        "calloutValue": [
+        ],
+        "categoryAxis": [
           {
-            "fontFamily": "Tawuniya"
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
+          }
+        ],
+        "valueAxis": [
+          {
+            "fontFamily": "Tawuniya",
+            "labelColor": {
+              "solid": {
+                "color": "#62606F"
+              }
+            }
           }
         ]
       }
