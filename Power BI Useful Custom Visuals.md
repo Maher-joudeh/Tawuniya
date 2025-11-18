@@ -4,7 +4,7 @@ A curated list of ***free useful Power BI custom visuals*** that are completely 
 
 These visuals extend beyond the default Power BI capabilities—some address niche use cases not achievable through standard visuals, while others enhance the **visual appeal and interactivity** of dashboards. 
 
-## Slicers
+# Slicers
 
 ### ![Chiclet Slicer](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Chiclet%20Slicer.png)  
 **[Chiclet Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380756)**  
@@ -33,7 +33,7 @@ Demonstrates the use of the advanced filtering API.
 
 ---
 
-## KPIs
+# KPIs
 
 ### ![Power KPI](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Power%20KPI.png)  
 **[Power KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381083?tab=Overview)**  
@@ -72,7 +72,7 @@ Embed data-bound card templates inside Power BI to deliver interactive, formatte
 
 ---
 
-## Charts
+# Charts
 
 ### ![Infographic Designer One](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%20One.png) ![Infographic Designer 2](/Miscellaneous/PBI%20Custom%20Visuals%20Images/Infographic%20Designer%202.png)  
 **[Infographic Designer](https://appsource.microsoft.com/en-ae/product/power-bi-visuals/WA104380898?tab=Overview)**  
