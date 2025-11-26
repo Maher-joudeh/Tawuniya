@@ -148,9 +148,7 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 
 ---
 
-## 📌 Recommended Custom Visuals
-
-### [➥ Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
+## 📌[ Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
 
 A curated list of powerful, free-to-use visuals that enhance:
 
