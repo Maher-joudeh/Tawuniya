@@ -177,7 +177,7 @@ Multilevel donut chart for visualising hierarchical data.
 
 ---
 
-### ![Tornado Chart](AssetsAssets/Miscellaneous/PBI%20Custom%20Visuals%20Images/Tornado%20Chart.png)  
+### ![Tornado Chart](Assets/Miscellaneous/PBI%20Custom%20Visuals%20Images/Tornado%20Chart.png)  
 **[Tornado Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768?tab=Overview)**  
 Compare the relative importance of variables between two groups.
 
