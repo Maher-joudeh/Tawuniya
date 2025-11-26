@@ -37,6 +37,70 @@ This folder contains assets developers may need, including dark- and light-mode 
 | **Light Mode** | [General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [ Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [ Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
 
 ---
+## 🚀 How to Use the Tawuniya Power BI Themes
+
+Follow these steps to start building dashboards using Tawuniya’s official Power BI design framework.  
+
+---
+
+### 🧩 **Using the Ready-Made Templates**
+
+1. **Download the ATLAS Library File**  
+   Get the latest `.pbix` file from the repository — this serves as your starting point and includes all layouts, visuals, and styles.  
+
+2. **Open the File in Power BI Desktop**  
+   Launch Power BI Desktop and open the downloaded ATLAS library file.  
+
+3. **Download the Required Theme from GitHub**  
+   Navigate to the [Included Themes](#included-themes) section in the README and download the `.json` theme that fits your use case (Light/Dark mode, or LOB-specific).  
+
+4. **Apply the Theme**  
+   In Power BI Desktop, go to **View → Themes → Browse for Themes...**, and select the downloaded `.json` file.  
+
+5. **Choose a Template Page**  
+   Pick the layout that fits your dashboard type (executive, operations, summary, etc.).  
+
+6. **Make Necessary Design Adjustments**  
+   Update titles, headers, KPIs, or colors as needed while keeping the structure aligned with the theme’s design system.  
+
+7. **Connect Your Data**  
+   Replace the sample data connections with your actual data sources.  
+
+8. **Remove Unused Pages**  
+   Delete all template pages that are not required for your final dashboard.  
+
+9. **Publish the Dashboard**  
+   Once finalized, publish your dashboard to Power BI Service or your designated workspace.  
+
+---
+
+### 🧱 **Building From Scratch (Without Templates)**
+
+If you prefer to design a new dashboard layout:
+
+1. **Remove All Template Visuals**  
+   Delete the prebuilt visuals and sections from the ATLAS library file.  
+
+2. **Use the Visuals Section**  
+   Open the **Visuals** page in the ATLAS library — it contains preformatted visuals that are already aligned with Tawuniya’s brand and grid system.  
+
+3. **Copy and Paste Needed Visuals**  
+   Copy the visuals you need from the Visuals section and paste them onto your new blank page.  
+
+4. **Apply the Preferred Theme**  
+   Choose a `.json` theme file (Colorful, Main Brand, or LOB-specific) to maintain color and typography consistency.  
+
+5. **Connect Your Data and Customize Layouts**  
+   Bind your visuals to data fields and adjust placements using the Power BI Desktop grid guide for alignment.  
+
+6. **Publish When Ready**  
+   Finalize your design and publish to Power BI Service.  
+
+---
+
+> 💡 **Tip:** Always use the provided grid guide (`Desktop Grid.svg`) as a background while designing to ensure proper spacing, symmetry, and visual harmony.
+
+---
 
 ## How To Use Themes in Power BI Desktop
 
