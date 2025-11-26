@@ -126,8 +126,6 @@ This folder contains helpul brand assets for dashboard development, including of
 
 ### Tawuniya LOB Logos
 
-### Tawuniya LOB Logos
-
 |                | General                                                                                    | Health                                                                                    | Mobility                                                                                    |
 | -------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Dark Mode**  | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)   | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)   | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)   |
