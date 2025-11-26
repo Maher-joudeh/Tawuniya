@@ -31,7 +31,7 @@ Choose whichever fits your Usecase.
    Start customizing immediately.
 
 3. **Download the Required Theme (.json)**  
-   From the [Included Themes](#included-themes) section.  
+   From the [Included Themes](#-included-themes) section.  
    (Choose Light/Dark or the suitable line-of-business theme.)
 
 4. **Apply the Theme**  
