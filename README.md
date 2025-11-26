@@ -39,12 +39,12 @@ Follow these steps to start building dashboards using Tawuniya’s official Powe
 
 ---
 
-### 🧱 **Building From Scratch (Without Templates)**
+### 🧱 **Building From Scratch (Creating a New Layout)**
 
 If you prefer to design a new dashboard layout:
 
 1. **Use the Visuals Section**  
-   Open the **Visuals** page in the ATLAS library — it contains preformatted visuals that are already aligned with Tawuniya’s brand and grid system.  
+   Open the **Visuals** section in the ATLAS library — it contains preformatted visuals that are already aligned with Tawuniya’s branding guidelines and data visualisation best practices.  
 
 2. **Copy and Paste Needed Visuals**  
    Copy the visuals you need from the Visuals section and paste them onto your new blank page.  
@@ -53,7 +53,7 @@ If you prefer to design a new dashboard layout:
    Choose a `.json` theme file (Colorful, Main Brand, or LOB-specific) to maintain color and typography consistency.  
 
 4. **Connect Your Data and Customize Layouts**  
-   Bind your visuals to data fields and adjust placements using the Power BI Desktop grid guide for alignment.  
+   Bind your visuals to data fields and adjust placements, sizing and hierarchy for alignment.  
 
 5. **Publish When Ready**  
    Finalize your design and publish to Power BI Service.  
