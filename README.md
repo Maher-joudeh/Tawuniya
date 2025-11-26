@@ -1,84 +1,104 @@
 # Tawuniya Power BI Library
 
-A unified, design-driven Power BI library curated by the Data Office to ensure **visual consistency**, **brand alignment**, and **development efficiency** across all Tawuniya dashboards.
+A unified, design-driven Power BI library curated by the Data Office to ensure **visual consistency**, **brand alignment**, and **efficient development workflows** across all Tawuniya dashboards.
 
-## How to Use the Tawuniya Power BI Library
+This repository provides:
 
-Follow these steps to start building dashboards using Tawuniya’s official Power BI design framework.
+- Official **Tawuniya Power BI Themes** (Main Brand, Data Office, and LOB-specific)
+- The **ATLAS Power BI Library File** containing ready-made templates, layout structures, and formatted visuals
+- A complete set of **Tawuniya assets**, **LOB logos**, and the **Desktop Grid Guide**
+- A curated list of **recommended custom visuals** to extend analytical and storytelling capabilities in Power BI
 
 ---
 
-### 🧩 **Using the Ready-Made Templates**
+## 🚀 How to Use the Tawuniya Power BI Library
+
+The library supports **two approaches**:
+
+1. Using ready-made templates
+2. Creating your own layout using the provided components
+
+Choose whichever fits your Usecase.
+
+---
+
+## 🧩 Using the Ready-Made Templates
 
 1. **Download the ATLAS Library File**  
-   Get the latest `.pbix` file from the repository — this serves as your starting point and includes all layouts, visuals, and styles.
+   This `.pbix` file includes all template pages, layout structures, typography, spacing rules, and visual styles.
 
 2. **Open the File in Power BI Desktop**  
-   Launch Power BI Desktop and open the downloaded ATLAS library file.
+   Start customizing immediately.
 
-3. **Download the Required Theme from GitHub**  
-   Navigate to the [Included Themes](#included-themes) section in the README and download the `.json` theme that fits your use case (Light/Dark mode, or LOB-specific).
+3. **Download the Required Theme (.json)**  
+   From the [Included Themes](#included-themes) section.  
+   (Choose Light/Dark or the suitable line-of-business theme.)
 
 4. **Apply the Theme**  
-   In Power BI Desktop, go to **View → Themes → Browse for Themes...**, and select the downloaded `.json` file.
+   Power BI Desktop → **View → Themes → Browse for themes…**  
+   Select your `.json` file.
 
 5. **Choose a Template Page**  
-   Pick the layout that fits your dashboard type (executive, operations, summary, etc.).
+   Select the dashboard layout that matches your use case
 
-6. **Make Necessary Design Adjustments**  
-   Update titles, headers, KPIs, or colors as needed while keeping the structure aligned with the theme’s design system.
+6. **Customize as Needed**  
+   Update titles, KPIs, visuals, colors, navigation, and filters while keeping the structure aligned with Tawuniya's Branding
 
 7. **Connect Your Data**  
    Replace the sample data connections with your actual data sources.
 
 8. **Remove Unused Pages**  
-   Delete all template pages that are not required for your final dashboard.
+   Delete template pages you're not using.
 
-9. **Publish the Dashboard**  
-   Once finalized, publish your dashboard to Power BI Service or your designated workspace.
-
----
-
-### 🧱 **Building From Scratch (Creating a New Layout)**
-
-If you prefer to design a new dashboard layout:
-
-1. **Use the Visuals Section**  
-   Open the **Visuals** section in the ATLAS library — it contains preformatted visuals that are already aligned with Tawuniya’s branding guidelines and data visualisation best practices.
-
-2. **Copy and Paste Needed Visuals**  
-   Copy the visuals you need from the Visuals section and paste them onto your new blank page.
-
-3. **Apply the Preferred Theme**  
-   Choose a `.json` theme file (Colorful, Main Brand, or LOB-specific) to maintain color and typography consistency.
-
-4. **Connect Your Data and Customize Layouts**  
-   Bind your visuals to data fields and adjust placements, sizing and hierarchy for alignment.
-
-5. **Publish When Ready**  
-   Finalize your design and publish to Power BI Service.
+9. **Publish to Power BI Service**  
+   Finalize and deploy your dashboard.
 
 ---
 
-> 💡 **Tip:** Always use the provided grid guide (`Desktop Grid.svg`) as a background while designing to ensure proper spacing, symmetry, and visual harmony.
+## 🧱 Creating a New Layout
+
+If you prefer to build a dashboard layout different from the provided templates:
+
+1. **Open the Visuals Section in the ATLAS Library**  
+   This section contains all preformatted visuals—cards, KPIs, charts, navigation elements—already aligned with Tawuniya’s branding and visualization standards.
+
+2. **Copy the Visuals You Need**  
+   Copy any component you want and paste it onto your new blank page.
+
+3. **Apply Any Tawuniya Theme**  
+   Choose from Main Brand, Data Theme, or any LOB-specific theme for consistent color, typography, and styling.
+
+4. **Design Your Layout**  
+   Arrange visuals, adjust spacing, and structure hierarchy using the Desktop Grid Guide for precise alignment.
+
+5. **Connect Your Data & Publish**  
+   Attach your data sources, refine visuals, and publish your dashboard when ready.
 
 ---
 
-## How To Apply Custom Themes in Power BI Desktop
-
-1. Download the desired `.json` file
-2. Open Your Report
-3. In Power BI Desktop, go to **View > Themes > Browse for themes...**
-4. Select the downloaded file to apply the theme across your report
-
-##### For Further Instructions Follow The Guide Below: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
+> 💡 **Tip:** Set `Desktop Grid.svg` as your background while designing to maintain perfect spacing and alignment across your visuals.
 
 ---
 
-## Included Themes
+## 🎨 How To Apply Custom Themes in Power BI Desktop
 
-- **[Tawuniya Main Brand - Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
-  The primary theme following tawuniya's main brand colors
+1. Download any `.json` theme
+2. Open your Power BI report
+3. Go to **View → Themes → Browse for themes…**
+4. Select your theme file
+
+➡️ Microsoft guide: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
+
+---
+
+## 🎨 Included Themes
+
+### Main Brand Theme
+
+- **[Tawuniya Main Brand – Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
+  The primary corporate theme following Tawuniya’s brand colors.
+
+### Data Office Themes
 
 - **[Tawuniya Data Theme - Light Mode](./Tawuniya%20Data%20Theme%20-%20Light%20Mode.json)** / **[Tawuniya Data Theme - Dark Mode](./Tawuniya%20Data%20Theme%20-%20Dark%20Mode.json)**
 
@@ -98,22 +118,24 @@ The primary theme used in data office dashboards reflecting our data office colo
 
   Tailored colors and formatting for the Mobility line of business
 
-## Assets
+---
 
-This folder contains assets developers may need, including dark- and light-mode Tawuniya logos, line-of-business logos, and the official icon for each business line
+## 🗂️ Assets
 
-**Tawuniya LOB Logos**
+This folder contains helpul brand assets for dashboard development, including official Tawuniya logos, LOB logos, and the Desktop Grid Guide.
 
-|                | General                                                                                                    | Health                                                                                                    | Mobility                                                                                                      |
-| -------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Dark Mode**  | [ General - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)   | [ Health - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)    | [ Mobility - Dark Mode](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)    |
-| **Light Mode** | [General - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [ Health - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [ Mobility - Light Mode](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
+### Tawuniya LOB Logos
+
+|                | General                                                                                    | Health                                                                                    | Mobility                                                                                    |
+| -------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Dark Mode**  | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)   | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)   | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)   |
+| **Light Mode** | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
 
 ---
 
-## Power BI Desktop Grid
+## 📏 Power BI Desktop Grid
 
-Use this grid as a background in Power BI to guide spacing, alignment, and margins so dashboards stay uniform
+Use this grid as a background while building dashboards to maintain spacing, alignment, and layout consistency.
 
 ![Power BI Desktop Grid](./Assets/Desktop%20Grid.svg)
 
@@ -126,14 +148,21 @@ Use this grid as a background in Power BI to guide spacing, alignment, and margi
 
 ---
 
-## [➥ Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
+## 📌 Recommended Custom Visuals
 
-A curated list of **_free useful Power BI custom visuals_** that are completely **free to use** and designed to serve specific analytical and storytelling scenarios.
+### [➥ Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
 
-These visuals extend beyond the default Power BI capabilities—some address niche use cases not achievable through standard visuals, while others enhance the **visual appeal and interactivity** of dashboards.
+A curated list of powerful, free-to-use visuals that enhance:
+
+- Storytelling
+- Visual clarity
+- Specialized analytical needs
+
+These visuals cover scenarios that default Power BI visuals cannot handle, and many also uplift the aesthetic and functional quality of your dashboards.
+
+---
 
 ## License
 
-All rights reserved for Tawuniya Insurance.
-
-© 2025 ATLAS Power Bl Data Visualization Library. All rights reserved.
+All rights reserved for Tawuniya Insurance.  
+© 2025 ATLAS Power BI Data Visualization Library. All rights reserved.
