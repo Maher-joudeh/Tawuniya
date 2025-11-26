@@ -1,8 +1,9 @@
 # Tawuniya Power BI Library
 
-A unified, design-driven Power BI library curated by the Data Office to ensure **visual consistency**, **brand alignment**, and **efficient development workflows** across all Tawuniya dashboards.  
+A unified, design-driven Power BI library curated by the Data Office to ensure **visual consistency**, **brand alignment**, and **efficient development workflows** across all Tawuniya dashboards.
 
 This repository provides:
+
 - Official **Tawuniya Power BI Themes** (Main Brand, Data Office, and LOB-specific)
 - The **ATLAS Power BI Library File** containing ready-made templates, layout structures, and formatted visuals
 - A complete set of **Tawuniya assets**, **LOB logos**, and the **Desktop Grid Guide**
@@ -12,9 +13,10 @@ This repository provides:
 
 ## 🚀 How to Use the Tawuniya Power BI Library
 
-The library supports **two approaches**:  
-1) Using ready-made templates  
-2) Creating your own layout using the provided components  
+The library supports **two approaches**:
+
+1. Using ready-made templates
+2. Creating your own layout using the provided components
 
 Choose whichever fits your Usecase.
 
@@ -53,7 +55,7 @@ Choose whichever fits your Usecase.
 
 ---
 
-## 🧱 Creating a New Layout 
+## 🧱 Creating a New Layout
 
 If you prefer to build a dashboard layout different from the provided templates:
 
@@ -80,10 +82,10 @@ If you prefer to build a dashboard layout different from the provided templates:
 
 ## 🎨 How To Apply Custom Themes in Power BI Desktop
 
-1. Download any `.json` theme  
-2. Open your Power BI report  
-3. Go to **View → Themes → Browse for themes…**  
-4. Select your theme file  
+1. Download any `.json` theme
+2. Open your Power BI report
+3. Go to **View → Themes → Browse for themes…**
+4. Select your theme file
 
 ➡️ Microsoft guide: https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes
 
@@ -91,14 +93,12 @@ If you prefer to build a dashboard layout different from the provided templates:
 
 ## 🎨 Included Themes
 
-### Main Brand Themes  
+### Main Brand Theme
+
 - **[Tawuniya Main Brand – Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
   The primary corporate theme following Tawuniya’s brand colors.
 
- **[Tawuniya Main Brand - Light Mode](./Tawuniya%20Main%20Brand%20-%20Light%20Mode.json)**  
-  The primary theme following tawuniya's main brand colors
-
-### Data Office Themes  
+### Data Office Themes
 
 - **[Tawuniya Data Theme - Light Mode](./Tawuniya%20Data%20Theme%20-%20Light%20Mode.json)** / **[Tawuniya Data Theme - Dark Mode](./Tawuniya%20Data%20Theme%20-%20Dark%20Mode.json)**
 
@@ -117,6 +117,7 @@ The primary theme used in data office dashboards reflecting our data office colo
 - **[Motor Theme - Light Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Light%20Mode.json)** / **[Motor Theme - Dark Mode](./Line%20Of%20Business%20JSON%20Themes/Motor%20Theme%20-%20Dark%20Mode.json)**
 
   Tailored colors and formatting for the Mobility line of business
+
 ---
 
 ## 🗂️ Assets
@@ -124,12 +125,13 @@ The primary theme used in data office dashboards reflecting our data office colo
 This folder contains helpul brand assets for dashboard development, including official Tawuniya logos, LOB logos, and the Desktop Grid Guide.
 
 ### Tawuniya LOB Logos
+
 ### Tawuniya LOB Logos
 
-|                | General                                                                                           | Health                                                                                            | Mobility                                                                                              |
-| -------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Dark Mode**  | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)          | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)          | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)            |
-| **Light Mode** | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png)        | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png)        | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png)          |
+|                | General                                                                                    | Health                                                                                    | Mobility                                                                                    |
+| -------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Dark Mode**  | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20General%20-%20Dark%20Mode.png)   | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Health%20-%20Dark%20Mode.png)   | [LINK](./Assets/LOB%20Logos/Dark%20Mode/Tawuniya%20Logo%20Mobility%20-%20Dark%20Mode.png)   |
+| **Light Mode** | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20General%20-%20Light%20Mode.png) | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Health%20-%20Light%20Mode.png) | [LINK](./Assets/LOB%20Logos/Light%20Mode/Tawuniya%20Logo%20Mobility%20-%20Light%20Mode.png) |
 
 ---
 
@@ -146,21 +148,23 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 3. Set **Image fit** to **Fill** ensure it adapts to different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
 4. Align visuals to the columns and maintain consistent padding to the grid
 
-
 ---
 
-## 📌 Recommended Custom Visuals  
+## 📌 Recommended Custom Visuals
+
 ### [➥ Power BI Useful Custom Visuals List](./Power%20BI%20Useful%20Custom%20Visuals.md)
 
 A curated list of powerful, free-to-use visuals that enhance:
-- Storytelling  
-- Visual clarity  
-- Specialized analytical needs  
+
+- Storytelling
+- Visual clarity
+- Specialized analytical needs
 
 These visuals cover scenarios that default Power BI visuals cannot handle, and many also uplift the aesthetic and functional quality of your dashboards.
 
 ---
 
 ## License
+
 All rights reserved for Tawuniya Insurance.  
 © 2025 ATLAS Power BI Data Visualization Library. All rights reserved.
