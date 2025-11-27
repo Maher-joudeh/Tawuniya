@@ -833,7 +833,7 @@
       "*": {
         "background": [
           {
-            "show": true
+            "show": false
           }
         ],
         "dropShadow": [
