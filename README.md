@@ -24,34 +24,44 @@ Choose whichever fits your Usecase.
 
 ## 🧩 Using the Ready-Made Templates
 
-1. **Download the ATLAS Library File**  
-   This `.pbix` file includes all template pages, layout structures, typography, spacing rules, and visual styles.
+1. **Download the ATLAS Library ZIP File**  
+   Download the `ATLAS Library.zip` file from the repository.  
+   This ZIP contains:
+   - **ATLAS Library.pbix** (all templates, visuals, layouts)
+   - **ATLAS – Design Guidelines.pbix** (documentation of usage rules, best practices)
 
-2. **Open the File in Power BI Desktop**  
-   Start customizing immediately.
+   > 📌 **Note:** The ZIP file is **password protected**.  
+   You must use the password provided internally by the Data Office to extract the contents.
 
-3. **Download the Required Theme (.json)**  
-   From the [Included Themes](#-included-themes) section.  
+2. **Extract the ZIP File**  
+   Enter the provided password to unlock the files.
+
+3. **Open `ATLAS Library.pbix` in Power BI Desktop**  
+   This is your main design and layout library for building dashboards.
+
+4. **Download the Required Theme (.json)**  
+   From the [Included Themes](#included-themes) section.  
    (Choose Light/Dark or the suitable line-of-business theme.)
 
-4. **Apply the Theme**  
+5. **Apply the Theme**  
    Power BI Desktop → **View → Themes → Browse for themes…**  
-   Select your `.json` file.
+   Select the `.json` file you downloaded.
 
-5. **Choose a Template Page**  
-   Select the dashboard layout that matches your use case
+6. **Choose a Template Page**  
+   Pick the dashboard layout that matches your use case.
 
-6. **Customize as Needed**  
-   Update titles, KPIs, visuals, colors, navigation, and filters while keeping the structure aligned with Tawuniya's Branding
+7. **Customize as Needed**  
+   Update visuals, titles, KPIs, and navigation according to your requirements while maintaining Tawuniya’s branding.
 
-7. **Connect Your Data**  
-   Replace the sample data connections with your actual data sources.
+8. **Connect Your Data**  
+   Replace sample/placeholder data with your actual data sources.
 
-8. **Remove Unused Pages**  
-   Delete template pages you're not using.
+9. **Remove Unused Pages**  
+   Delete all template pages you do not need for your final dashboard.
 
-9. **Publish to Power BI Service**  
-   Finalize and deploy your dashboard.
+10. **Publish to Power BI Service**  
+   Finalize your design, review alignment, and publish to your workspace.
+
 
 ---
 
