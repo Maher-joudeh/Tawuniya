@@ -25,29 +25,6 @@
             "transparency": 0
           }
         ],
-         "page": {
-    "*": {
-      "background": [
-        {
-          "color": {
-            "solid": {
-              "color": "#161528"  
-            }
-          },
-          "transparency": 0
-        }
-      ],
-      "outspacePane": [
-        {
-          "backgroundColor": {
-            "solid": {
-              "color": "#161528"
-            }
-          }
-        }
-      ]
-    }
-  },
         "border": [
           {
             "_comment": "This color is to be changed if theme colors are changed ----------------------------------#FF4135-------------------------------",
@@ -717,7 +694,7 @@
           {
             "color": {
               "solid": {
-                "color": "#F1F3F6"
+                "color": "#161528"
               }
             },
             "transparency": 0
@@ -727,7 +704,7 @@
           {
             "backgroundColor": {
               "solid": {
-                "color": "#F1F3F6"
+                "color": "#161528"
               }
             }
           }
