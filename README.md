@@ -29,10 +29,9 @@ Choose whichever fits your Usecase.
    This ZIP contains:
    - **ATLAS Library.pbix** (all templates, visuals, layouts)
    - **ATLAS – Design Guidelines.pbix** (documentation of usage rules, best practices)
-
-
+---
    > 📌 **Note:** The ZIP file is **password protected**.  
-
+---
 2. **Extract the ZIP File**  
    Enter the provided password to unlock the files.
 
