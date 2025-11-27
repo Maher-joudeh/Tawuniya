@@ -30,8 +30,8 @@ Choose whichever fits your Usecase.
    - **ATLAS Library.pbix** (all templates, visuals, layouts)
    - **ATLAS – Design Guidelines.pbix** (documentation of usage rules, best practices)
 
+
    > 📌 **Note:** The ZIP file is **password protected**.  
-   You must use the password provided internally by the Data Office to extract the contents.
 
 2. **Extract the ZIP File**  
    Enter the provided password to unlock the files.
