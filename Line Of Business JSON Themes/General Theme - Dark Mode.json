@@ -30,8 +30,6 @@
       "background": [
         {
           "color": {
-           "_comment": "(dashboard (canvas) background)----------------------------------#FF4135-------------------------------",
-
             "solid": {
               "color": "#161528"  
             }
@@ -42,7 +40,6 @@
       "outspacePane": [
         {
           "backgroundColor": {
-           "_comment": "(Area Ouside Page)  ----------------------------------#FF4135-------------------------------",
             "solid": {
               "color": "#161528"
             }
