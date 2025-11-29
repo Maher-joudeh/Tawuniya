@@ -161,7 +161,7 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 
 **→ Dark Mode:**  
   Transparency will temporarily lighten the canvas while the grid is active.  
-  When you are **done using the grid**, return to **Canvas background** and click **Reset to default** to restore the canvas **as per the theme**.
+  When you are **done using the grid**, return to **Canvas background** and click **Reset to default** to restore the canvas background color **as per the theme**.
 
 ---
 
