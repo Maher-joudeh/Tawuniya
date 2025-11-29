@@ -151,16 +151,18 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 **How To Use**
 
 1. Go to **Format → Canvas background**.
-2. Select `Desktop Grid.svg`.
-3. Set **Fill** and **50% transparency**.
+2. Select `Desktop Grid.svg` as the background image.
+3. Set **Image fit** to **Fill** and **Transparency** to **50%**.
 
-### Important
+### Important Note
+When adjusting transparency, the behavior depends on the theme:
+
 - **Light Mode:**  
-  The canvas stays white — transparency does not change the background.
+  The canvas remains white, so transparency does not visually change the background.
 
 - **Dark Mode:**  
-  Transparency will lighten the canvas *while the grid is visible*.  
-  When you are **finished using the grid**, return to **Canvas background** and click **Reset to default** to restore the canvas **as per the theme**.
+  Transparency will temporarily lighten the canvas while the grid is active.  
+  When you are **done using the grid**, return to **Canvas background** and click **Reset to default** to restore the canvas **as per the theme**.
 
 ---
 
