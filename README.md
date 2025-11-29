@@ -156,10 +156,10 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 
 ### Important Note When adjusting transparency, the behavior depends on the theme:
 
-- **Light Mode:**  
+**→ Light Mode:**  
   The canvas remains white, so transparency does not visually change the background.
 
-- **Dark Mode:**  
+**→ Dark Mode:**  
   Transparency will temporarily lighten the canvas while the grid is active.  
   When you are **done using the grid**, return to **Canvas background** and click **Reset to default** to restore the canvas **as per the theme**.
 
