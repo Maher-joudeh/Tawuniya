@@ -150,11 +150,17 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 
 **How To Use**
 
-1. In Power BI Desktop, select an empty area on the canvas and open **Format > Canvas background**
-2. Choose **Image** and browse to `Desktop Grid.svg`
-3. Set **Image fit** to **Fill** ensure it adapts to different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
-4. Align visuals to the columns and maintain consistent padding to the grid
-5. Once done  go to  **Canvas background** and press Reset to default.
+1. Go to **Format → Canvas background**.
+2. Select `Desktop Grid.svg`.
+3. Set **Fill** and **50% transparency**.
+
+### Important
+- **Light Mode:**  
+  The canvas stays white — transparency does not change the background.
+
+- **Dark Mode:**  
+  Transparency will lighten the canvas *while the grid is visible*.  
+  When you are **finished using the grid**, return to **Canvas background** and click **Reset to default** to restore the canvas **as per the theme**.
 
 ---
 
