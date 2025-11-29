@@ -154,8 +154,7 @@ Use this grid as a background while building dashboards to maintain spacing, ali
 2. Select `Desktop Grid.svg` as the background image.
 3. Set **Image fit** to **Fill** ensure it adapts to different canvas sizes, and adjust **Transparency** to **50%** so visuals are readable
 
-### Important Note
-When adjusting transparency, the behavior depends on the theme:
+### Important Note When adjusting transparency, the behavior depends on the theme:
 
 - **Light Mode:**  
   The canvas remains white, so transparency does not visually change the background.
